@@ -1,0 +1,2561 @@
+
+C:\Users\cadam\AppData\Local\Temp\arduino\sketches\15E2D34EFEC8D6AD3DF9AF925804A12A/T41EEE.ino.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+60000000 l    d  .text.headers	00000000 .text.headers
+60001400 l    d  .text.code	00000000 .text.code
+600095b8 l    d  .text.progmem	00000000 .text.progmem
+00000000 l    d  .text.itcm	00000000 .text.itcm
+000360a0 l    d  .fini	00000000 .fini
+000360a4 l    d  .ARM.exidx	00000000 .ARM.exidx
+20000000 l    d  .data	00000000 .data
+200136c0 l    d  .bss	00000000 .bss
+20200000 l    d  .bss.dma	00000000 .bss.dma
+70000000 l    d  .bss.extram	00000000 .bss.extram
+6005d44c l    d  .text.csf	00000000 .text.csf
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    df *ABS*	00000000 bootdata.c
+00000000 l    df *ABS*	00000000 startup.c
+60001400 l     F .text.code	00000012 memory_copy
+60001414 l     F .text.code	0000001c memory_clear.constprop.0
+60001430 l     F .text.code	0000021c ResetHandler2
+00000000 l    df *ABS*	00000000 Bearing.cpp
+00006bc8 l     F .text.itcm	00000024 _GLOBAL__sub_I_countryIndex
+20002fbc l     O .data	00000002 DEGREE_SYMBOL
+00000000 l    df *ABS*	00000000 CWProcessing.cpp
+0000886c l     F .text.itcm	00000050 _GLOBAL__sub_I_aveCorrResultR
+20014fcc l     O .bss	00000004 col
+00000000 l    df *ABS*	00000000 Display.cpp
+0000cc7c l     F .text.itcm	00000024 _GLOBAL__sub_I_gradient
+200209f8 l     O .bss	00000001 ShowAnalogGain()::RF_att_old
+200209f9 l     O .bss	00000001 ShowAnalogGain()::RF_gain_old
+20017368 l     O .bss	00000004 UpdateIncrementField()::selectFTIndex
+2000268c l     O .data	00000014 CSWTCH.189
+200026a0 l     O .data	00000014 CSWTCH.215
+200026b4 l     O .data	00000014 CSWTCH.216
+20003afc l     O .data	00000048 DrawFrequencyBarValue()::idx2pos
+00000000 l    df *ABS*	00000000 EEPROM.cpp
+0000cca0 l     F .text.itcm	00000004 _GLOBAL__sub_I_currentMode
+00000000 l    df *ABS*	00000000 JSON.cpp
+0000f7ec l     F .text.itcm	00000140 bool ArduinoJson::V704PB2::detail::VariantRefBase<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> >::set<char const>(char const*) const [clone .isra.0]
+0000f92c l     F .text.itcm	0000012e bool ArduinoJson::V704PB2::detail::VariantRefBase<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> >::set<bool>(bool const&) const [clone .isra.0]
+0000fa5c l     F .text.itcm	00000138 bool ArduinoJson::V704PB2::detail::VariantRefBase<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> >::set<float>(float const&) const [clone .isra.0]
+0000fb94 l     F .text.itcm	00000134 bool ArduinoJson::V704PB2::detail::VariantRefBase<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> >::set<int>(int const&) const [clone .isra.0]
+0000fcc8 l     F .text.itcm	00000134 bool ArduinoJson::V704PB2::detail::VariantRefBase<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> >::set<long>(long const&) const [clone .isra.0]
+000105b8 l     F .text.itcm	000001e8 ArduinoJson::V704PB2::detail::enable_if<!ArduinoJson::V704PB2::detail::ConverterNeedsWriteableRef<int>::value, int>::type ArduinoJson::V704PB2::detail::VariantRefBase<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> >::as<int>() const [clone .isra.0]
+00011954 l     F .text.itcm	00000a5c ArduinoJson::V704PB2::DeserializationError::Code ArduinoJson::V704PB2::detail::JsonDeserializer<ArduinoJson::V704PB2::detail::Reader<File, void> >::parseVariant<ArduinoJson::V704PB2::detail::AllowAllFilter>(ArduinoJson::V704PB2::detail::VariantData&, ArduinoJson::V704PB2::detail::AllowAllFilter, ArduinoJson::V704PB2::DeserializationOption::NestingLimit) [clone .isra.0]
+000123b0 l     F .text.itcm	000001a4 ArduinoJson::V704PB2::DeserializationError ArduinoJson::V704PB2::detail::doDeserialize<ArduinoJson::V704PB2::detail::JsonDeserializer, ArduinoJson::V704PB2::JsonDocument&, ArduinoJson::V704PB2::detail::Reader<File, void>, ArduinoJson::V704PB2::detail::DeserializationOptions<ArduinoJson::V704PB2::detail::AllowAllFilter> >(ArduinoJson::V704PB2::JsonDocument&, ArduinoJson::V704PB2::detail::Reader<File, void>, ArduinoJson::V704PB2::detail::DeserializationOptions<ArduinoJson::V704PB2::detail::AllowAllFilter>) [clone .isra.0]
+00012e84 l     F .text.itcm	000004e0 ArduinoJson::V704PB2::detail::PrettyJsonSerializer<ArduinoJson::V704PB2::detail::Writer<usb_serial_class, void> >::result_type ArduinoJson::V704PB2::detail::VariantData::accept<ArduinoJson::V704PB2::detail::PrettyJsonSerializer<ArduinoJson::V704PB2::detail::Writer<usb_serial_class, void> > >(ArduinoJson::V704PB2::detail::PrettyJsonSerializer<ArduinoJson::V704PB2::detail::Writer<usb_serial_class, void> >&) const [clone .isra.0]
+00013364 l     F .text.itcm	00000004 _GLOBAL__sub_I__Z17loadConfigurationPKcR8config_t
+00000000 l    df *ABS*	00000000 Process2.cpp
+00017f5c l     F .text.itcm	00000004 _GLOBAL__sub_I_val
+00000000 l    df *ABS*	00000000 T41EEE.ino.cpp
+2020fe80 l     O .bss.dma	0001fbd0 setup::data
+00018dd0 l     F .text.itcm	0000048c _GLOBAL__sub_I_filename
+00000000 l    df *ABS*	00000000 Utility.cpp
+0001a008 l     F .text.itcm	00000004 _GLOBAL__sub_I_display_dbm
+00000000 l    df *ABS*	00000000 WireIMXRT.cpp
+00000000 l    df *ABS*	00000000 imxrt_hw.cpp
+00000000 l    df *ABS*	00000000 AudioStream.cpp
+00000000 l    df *ABS*	00000000 analog.c
+20020a02 l     O .bss	00000001 calibrating
+00000000 l    df *ABS*	00000000 tempmon.c
+2002015c l     O .bss	00000004 s_hotCount
+20020168 l     O .bss	00000004 s_hotTemp
+2002016c l     O .bss	00000004 s_hot_ROOM
+20020174 l     O .bss	00000004 s_roomC_hotC
+00000000 l    df *ABS*	00000000 usb.c
+00027b48 l     F .text.itcm	00000088 schedule_transfer
+00027bd0 l     F .text.itcm	00000036 run_callbacks
+00027c08 l     F .text.itcm	00000098 endpoint0_transmit.constprop.0
+2001b49c l     O .bss	00000008 endpoint0_buffer
+2001b4a4 l     O .bss	00000004 endpoint0_notify_mask
+20013930 l     O .bss	00000008 endpoint0_setupdata
+2001b4a8 l     O .bss	00000004 endpointN_notify_mask
+2001c510 l     O .bss	00000008 reply_buffer
+20020a0f l     O .bss	00000001 sof_usage
+20020a18 l     O .bss	00000001 usb_reboot_timer
+00000000 l    df *ABS*	00000000 crti.o
+00000000 l    df *ABS*	00000000 crtn.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+00000a08 l     F .text.itcm	00000000 register_tm_clones
+00000a2c l     F .text.itcm	00000000 frame_dummy
+2001b644 l     O .bss	00000000 object.0
+600094c8 l     O .text.code	00000000 __frame_dummy_init_array_entry
+00000000 l    df *ABS*	00000000 Button.cpp
+00007130 l     F .text.itcm	00000020 _GLOBAL__sub_I_buttonRead
+20014fa8 l     O .bss	00000004 buttonState
+20014fb0 l     O .bss	00000004 buttonADCOut
+20014fb8 l     O .bss	00000004 buttonElapsed
+20014fbc l     O .bss	00000004 buttonADCPressed
+20014fc0 l     O .bss	00000004 buttonFilterRegister
+00000000 l    df *ABS*	00000000 ButtonProc.cpp
+00007150 l     F .text.itcm	00000080 DrawNewFloor(int) [clone .part.0]
+00008100 l     F .text.itcm	00000004 _GLOBAL__sub_I_save_last_frequency
+200122e4 l     O .data	00000004 DrawNewFloor(int)::oldY
+00000000 l    df *ABS*	00000000 CW_Excite.cpp
+00008b4c l     F .text.itcm	00000004 _GLOBAL__sub_I__Z8KeyTipOnv
+00000000 l    df *ABS*	00000000 DSP_Fn.cpp
+0000a1ac l     F .text.itcm	00000004 _GLOBAL__sub_I_knee_dBFS
+20017220 l     O .bss	00000004 AltNoiseBlanking(float*, int, float*)::frame_count
+20017224 l     O .bss	00000140 AltNoiseBlanking(float*, int, float*)::last_frame_end
+00000000 l    df *ABS*	00000000 Demod.cpp
+0000a704 l     F .text.itcm	00000004 _GLOBAL__sub_I_dc
+00000000 l    df *ABS*	00000000 Encoders.cpp
+0000d628 l     F .text.itcm	00000004 _GLOBAL__sub_I_adjustVolEncoder
+00000000 l    df *ABS*	00000000 Exciter.cpp
+0000d864 l     F .text.itcm	00000004 _GLOBAL__sub_I_sp_L2
+00000000 l    df *ABS*	00000000 FFT.cpp
+20015220 l     O .bss	00001000 ZoomFFTExe(unsigned long)::FFT_ring_buffer_x
+20016220 l     O .bss	00001000 ZoomFFTExe(unsigned long)::FFT_ring_buffer_y
+0000df1c l     F .text.itcm	00000004 _GLOBAL__sub_I_Zoom_FFT_M1
+00000000 l    df *ABS*	00000000 FIR.cpp
+0000e784 l     F .text.itcm	00000004 _GLOBAL__sub_I_FIR_filter_window
+00000000 l    df *ABS*	00000000 Filter.cpp
+0000f200 l     F .text.itcm	00000004 _GLOBAL__sub_I_m_NumTaps
+00000000 l    df *ABS*	00000000 Freq_Shift.cpp
+0000f494 l     F .text.itcm	00000004 _GLOBAL__sub_I_NCO_INC
+00000000 l    df *ABS*	00000000 Menu.cpp
+00013400 l     F .text.itcm	00000004 _GLOBAL__sub_I__Z8ShowMenuPPKci
+00000000 l    df *ABS*	00000000 MenuProc.cpp
+00014fe0 l     F .text.itcm	00000004 _GLOBAL__sub_I_micChoice
+00000000 l    df *ABS*	00000000 Noise.cpp
+000162d4 l     F .text.itcm	00000078 _GLOBAL__sub_I_NR_use_X
+20014f98 l     O .bss	00000004 guard variable for SpectralNoiseReduction()::pfac
+20014f9c l     O .bss	00000004 guard variable for SpectralNoiseReduction()::xih1r
+2001736c l     O .bss	00000004 SpectralNoiseReduction()::post_power
+200209fa l     O .bss	00000001 SpectralNoiseReduction()::NR_init_counter
+200209d0 l     O .bss	00000002 SpectralNoiseReduction()::NN
+20017370 l     O .bss	00000004 SpectralNoiseReduction()::ap
+20017374 l     O .bss	00000004 SpectralNoiseReduction()::ax
+20017378 l     O .bss	00000200 SpectralNoiseReduction()::xt
+20017578 l     O .bss	00000004 SpectralNoiseReduction()::pfac
+2001757c l     O .bss	00000200 SpectralNoiseReduction()::pslp
+2001777c l     O .bss	00000004 SpectralNoiseReduction()::xih1r
+20017780 l     O .bss	00000004 SpectralNoiseReduction()::pre_power
+200122e8 l     O .data	00000004 SpectralNoiseReduction()::NR_first_time_2
+200030b8 l     O .data	00000400 sqrtHann
+00000000 l    df *ABS*	00000000 Process.cpp
+00016db8 l     F .text.itcm	00000004 _GLOBAL__sub_I_atom
+00000000 l    df *ABS*	00000000 Tune.cpp
+00019838 l     F .text.itcm	0000002c _GLOBAL__sub_I_CWFreqShift
+6001050c l     O .text.progmem	00000010 FreeMonoBold24pt7b
+60012058 l     O .text.progmem	00001a8d FreeMonoBold24pt7bBitmaps
+60011d60 l     O .text.progmem	000002f8 FreeMonoBold24pt7bGlyphs
+6001051c l     O .text.progmem	00000010 FreeMonoBold18pt7b
+60010e78 l     O .text.progmem	00000ee5 FreeMonoBold18pt7bBitmaps
+60010b80 l     O .text.progmem	000002f8 FreeMonoBold18pt7bGlyphs
+6001052c l     O .text.progmem	00000010 FreeMono9pt7b
+60010834 l     O .text.progmem	0000034c FreeMono9pt7bBitmaps
+6001053c l     O .text.progmem	000002f8 FreeMono9pt7bGlyphs
+00000000 l    df *ABS*	00000000 async_input_spdif3.cpp
+0001ab80 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN21AsyncAudioInputSPDIF310microsLastE
+00000000 l    df *ABS*	00000000 input_adc.cpp
+0001af9c l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN16AudioInputAnalog3dmaE
+00000000 l    df *ABS*	00000000 input_i2s.cpp
+0001afb4 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN13AudioInputI2S10block_leftE
+00000000 l    df *ABS*	00000000 input_i2s2.cpp
+0001afcc l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN14AudioInputI2S210block_leftE
+00000000 l    df *ABS*	00000000 input_i2s_hex.cpp
+0001afe4 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN16AudioInputI2SHex9block_ch1E
+00000000 l    df *ABS*	00000000 input_i2s_oct.cpp
+0001affc l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN16AudioInputI2SOct9block_ch1E
+00000000 l    df *ABS*	00000000 input_i2s_quad.cpp
+0001b334 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN17AudioInputI2SQuad9block_ch1E
+202661e0 l     O .bss.dma	00000400 i2s_rx_buffer
+00000000 l    df *ABS*	00000000 input_pdm.cpp
+0001b34c l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN13AudioInputPDM10block_leftE
+00000000 l    df *ABS*	00000000 input_pdm_i2s2.cpp
+0001b364 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN14AudioInputPDM210block_leftE
+00000000 l    df *ABS*	00000000 input_spdif3.cpp
+0001b37c l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN16AudioInputSPDIF310block_leftE
+00000000 l    df *ABS*	00000000 input_tdm.cpp
+0001b394 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN13AudioInputTDM14block_incomingE
+00000000 l    df *ABS*	00000000 input_tdm2.cpp
+0001b3ac l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN14AudioInputTDM214block_incomingE
+00000000 l    df *ABS*	00000000 output_i2s.cpp
+0001b618 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN14AudioOutputI2S14block_left_1stE
+00000000 l    df *ABS*	00000000 output_i2s2.cpp
+0001b630 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN15AudioOutputI2S214block_left_1stE
+00000000 l    df *ABS*	00000000 output_i2s_hex.cpp
+0001b648 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN17AudioOutputI2SHex13block_ch1_1stE
+00000000 l    df *ABS*	00000000 output_i2s_oct.cpp
+0001b660 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN17AudioOutputI2SOct13block_ch1_1stE
+00000000 l    df *ABS*	00000000 output_i2s_quad.cpp
+0001ba80 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN18AudioOutputI2SQuad13block_ch1_1stE
+202665e0 l     O .bss.dma	00000400 i2s_tx_buffer
+200034b8 l     O .data	00000080 zerodata
+00000000 l    df *ABS*	00000000 output_mqs.cpp
+0001ba98 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN14AudioOutputMQS14block_left_1stE
+00000000 l    df *ABS*	00000000 output_pt8211.cpp
+0001bab0 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN17AudioOutputPT821114block_left_1stE
+00000000 l    df *ABS*	00000000 output_pt8211_2.cpp
+0001bac8 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN19AudioOutputPT8211_214block_left_1stE
+00000000 l    df *ABS*	00000000 output_pwm.cpp
+0001bae0 l     F .text.itcm	0000001c __tcf_0
+0001bafc l     F .text.itcm	00000030 _GLOBAL__sub_I__ZN14AudioOutputPWM21update_responsibilityE
+00000000 l    df *ABS*	00000000 output_spdif.cpp
+0001bb2c l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN16AudioOutputSPDIF14block_left_1stE
+00000000 l    df *ABS*	00000000 output_spdif2.cpp
+0001bb44 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN17AudioOutputSPDIF214block_left_1stE
+00000000 l    df *ABS*	00000000 output_spdif3.cpp
+0001bb5c l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN17AudioOutputSPDIF314block_left_1stE
+00000000 l    df *ABS*	00000000 output_tdm.cpp
+0001bb74 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN14AudioOutputTDM11block_inputE
+00000000 l    df *ABS*	00000000 output_tdm2.cpp
+0001bb8c l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN15AudioOutputTDM211block_inputE
+00000000 l    df *ABS*	00000000 SD.cpp
+0001c558 l     F .text.itcm	00000080 _GLOBAL__sub_I_SD
+00000000 l    df *ABS*	00000000 async_input_spdif3_F32.cpp
+000239c0 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN25AsyncAudioInputSPDIF3_F3210microsLastE
+00000000 l    df *ABS*	00000000 input_i2s_f32.cpp
+000239d8 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN17AudioInputI2S_F3214block_left_f32E
+00000000 l    df *ABS*	00000000 input_spdif3_f32.cpp
+000239f0 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN20AudioInputSPDIF3_F3210block_leftE
+00000000 l    df *ABS*	00000000 output_i2s_f32.cpp
+00023a08 l     F .text.itcm	00000018 _GLOBAL__sub_I__ZN18AudioOutputI2S_F3213setI2SFreq_T3Ef
+00000000 l    df *ABS*	00000000 output_spdif3_f32.cpp
+00023a20 l     F .text.itcm	00000038 _GLOBAL__sub_I__ZN21AudioOutputSPDIF3_F3214block_left_1stE
+202669e0 l     O .bss.dma	00000800 SPDIF_tx_buffer
+00000000 l    df *ABS*	00000000 IntervalTimer.cpp
+00025f24 l     F .text.itcm	00000084 pit_isr()
+00025fa8 l     F .text.itcm	00000020 __tcf_0
+0002613c l     F .text.itcm	0000002c _GLOBAL__sub_I__ZN13IntervalTimer14nvic_prioritesE
+200136c0 l     O .bss	00000060 funct_table
+00000000 l    df *ABS*	00000000 eh_alloc.o
+0002e8b4 l     F .text.itcm	00000028 _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
+00000000 l    df *ABS*	00000000 usb_desc.c
+20012ba4 l     O .data	00000012 device_descriptor
+20012ec8 l     O .data	00000028 microsoft_os_compatible_id_desc
+20012ef0 l     O .data	00000012 microsoft_os_string_desc
+60013cd4 l     O .text.progmem	0000000a qualifier_descriptor
+00000000 l    df *ABS*	00000000 interrupt.c
+000270f4 l     F .text.itcm	00000002 dummy_isr
+200026c8 l     O .data	00000014 CSWTCH.6
+00000000 l    df *ABS*	00000000 RA8875.cpp
+00000a58 l     F .text.itcm	000000dc RA8875::colorInterpolation(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned short, unsigned short) [clone .part.0]
+00002350 l     F .text.itcm	000000e8 RA8875::_charWrite(char, unsigned char) [clone .part.0]
+000032b8 l     F .text.itcm	0000027c RA8875::_charWriteR(char, unsigned char, unsigned short, unsigned short) [clone .part.0]
+00005bc4 l     F .text.itcm	000001fc RA8875::_fontWrite(unsigned char const*, unsigned short) [clone .part.0]
+20017784 l     O .bss	00000640 RA8875::writeRect(short, short, short, short, unsigned short const*)::rotated_row
+200026dc l     O .data	00000006 CSWTCH.652
+20002e58 l     O .data	0000002d initStrings
+20002fb4 l     O .data	00000006 sysClockPar
+20002fc0 l     O .data	00000006 _RA8875colorMask
+00000000 l    df *ABS*	00000000 Adafruit_I2CDevice.cpp
+00000000 l    df *ABS*	00000000 SPI.cpp
+0001a54c l     F .text.itcm	00000060 SPIClass::transfer(void const*, void*, unsigned int) [clone .part.0]
+00000000 l    df *ABS*	00000000 control_sgtl5000.cpp
+0001ac84 l     F .text.itcm	00000184 AudioControlSGTL5000::enable(unsigned int, unsigned long) [clone .part.0]
+00000000 l    df *ABS*	00000000 memcpy_audio.S.o
+0001b3cc l       .text.itcm	00000000 .loopLR
+0001b410 l       .text.itcm	00000000 .loopL
+0001b450 l       .text.itcm	00000000 .loopR
+0001b48c l       .text.itcm	00000000 .loopQuad
+00000000 l    df *ABS*	00000000 mixer.cpp
+00000000 l    df *ABS*	00000000 play_queue.cpp
+00000000 l    df *ABS*	00000000 record_queue.cpp
+00000000 l    df *ABS*	00000000 ExFatFile.cpp
+00000000 l    df *ABS*	00000000 ExFatFileWrite.cpp
+00000000 l    df *ABS*	00000000 ExFatFormatter.cpp
+0001d958 l     F .text.itcm	00000020 Print::write(char const*) [clone .isra.0]
+00000000 l    df *ABS*	00000000 ExFatName.cpp
+00000000 l    df *ABS*	00000000 ExFatPartition.cpp
+00000000 l    df *ABS*	00000000 FatFile.cpp
+0001e6b0 l     F .text.itcm	000000b4 FatFile::sync() [clone .part.0]
+00000000 l    df *ABS*	00000000 FatFileLFN.cpp
+00000000 l    df *ABS*	00000000 FatFormatter.cpp
+0001ff98 l     F .text.itcm	00000030 initFatDirCallback(unsigned long, void*)
+00000000 l    df *ABS*	00000000 FatName.cpp
+00000000 l    df *ABS*	00000000 FatPartition.cpp
+000207b0 l     F .text.itcm	000000fa FatPartition::fatGet(unsigned long, unsigned long*) [clone .part.0]
+000208ac l     F .text.itcm	0000010c FatPartition::fatPut(unsigned long, unsigned long) [clone .part.0]
+00000000 l    df *ABS*	00000000 FsFile.cpp
+00000000 l    df *ABS*	00000000 FsNew.cpp
+00000000 l    df *ABS*	00000000 FsVolume.cpp
+00000000 l    df *ABS*	00000000 SdSpiCard.cpp
+00000000 l    df *ABS*	00000000 SdioTeensy.cpp
+00021e58 l     F .text.itcm	00000030 sdIrs()
+00021e88 l     F .text.itcm	00000014 isBusyDat()
+00021e9c l     F .text.itcm	0000000c isBusyDMA()
+00021ea8 l     F .text.itcm	000000cc setSdclk(unsigned long)
+0002207c l     F .text.itcm	00000128 initSDHC()
+000221a4 l     F .text.itcm	00000088 waitTransferComplete() [clone .part.0]
+000222e0 l     F .text.itcm	00000098 cardCommand(unsigned long, unsigned long)
+00022378 l     F .text.itcm	00000060 readReg16(unsigned long, void*)
+00022474 l     F .text.itcm	0000002c isBusyCMD13()
+0002262c l     F .text.itcm	0000011c cardCMD6(unsigned long, unsigned char*)
+00022844 l     F .text.itcm	0000015c rdWrSectors(unsigned long, unsigned long, unsigned char*, unsigned int)
+200209eb l     O .bss	00000001 m_initDone
+20014fa0 l     O .bss	00000004 m_sdClkKhz
+200209ec l     O .bss	00000001 m_version2
+20014fac l     O .bss	00000004 m_errorLine
+200209ed l     O .bss	00000001 m_highCapacity
+200209ee l     O .bss	00000001 m_transferActive
+20014fd0 l     O .bss	00000010 m_cid
+20014fe0 l     O .bss	00000010 m_csd
+20014ff0 l     O .bss	00000004 m_ocr
+20014ff4 l     O .bss	00000004 m_rca
+20014ffc l     O .bss	00000004 m_busyFcn
+200209f0 l     O .bss	00000001 m_dmaBusy
+20015000 l     O .bss	00000004 m_irqstat
+200131fe l     O .data	00000001 m_errorCode
+00000000 l    df *ABS*	00000000 SdSpiChipSelect.cpp
+00000000 l    df *ABS*	00000000 SdSpiTeensy3.cpp
+00000000 l    df *ABS*	00000000 FsCache.cpp
+00000000 l    df *ABS*	00000000 FsDateTime.cpp
+0002340c l     F .text.itcm	00000014 dateTimeMs10(unsigned short*, unsigned short*, unsigned char*)
+00000000 l    df *ABS*	00000000 FsName.cpp
+00000000 l    df *ABS*	00000000 FsStructs.cpp
+00000000 l    df *ABS*	00000000 FsUtf.cpp
+00000000 l    df *ABS*	00000000 upcase.cpp
+20002e88 l     O .data	0000012c lookupTable
+20002fe4 l     O .data	000000d4 mapTable
+00000000 l    df *ABS*	00000000 AudioStream_F32.cpp
+20017364 l     O .bss	00000004 allocate_f32_memory(int)::data_f32
+200131ff l     O .data	00000001 allocate_f32_memory(int)::firstTime
+00000000 l    df *ABS*	00000000 Time.cpp
+20014fa4 l     O .bss	00000004 prevMillis
+20014fb4 l     O .bss	00000004 nextSyncTime
+20014fc4 l     O .bss	00000007 tm
+200209ef l     O .bss	00000001 Status
+20014ff8 l     O .bss	00000004 sysTime
+20013918 l     O .bss	00000008 cacheTime
+200122dc l     O .data	00000004 syncInterval
+20003538 l     O .data	0000000c monthDays
+00000000 l    df *ABS*	00000000 Metro.cpp
+00000000 l    df *ABS*	00000000 si5351.cpp
+20002684 l     O .data	00000008 CSWTCH.159
+00000000 l    df *ABS*	00000000 Rotary.cpp
+20002fc8 l     O .data	0000001c ttable
+00000000 l    df *ABS*	00000000 DMAChannel.cpp
+00000000 l    df *ABS*	00000000 EventResponder.cpp
+00000000 l    df *ABS*	00000000 Print.cpp
+00026170 l     F .text.itcm	0000007e Print::printNumber(unsigned long, unsigned char, unsigned char) [clone .part.0]
+00000000 l    df *ABS*	00000000 Stream.cpp
+00000000 l    df *ABS*	00000000 Time.cpp
+20003544 l     O .data	0000000c monthDays
+00000000 l    df *ABS*	00000000 WString.cpp
+00000000 l    df *ABS*	00000000 clockspeed.c
+00000000 l    df *ABS*	00000000 delay.c
+00000000 l    df *ABS*	00000000 digital.c
+00000000 l    df *ABS*	00000000 eeprom.c
+00026cdc l     F .text.itcm	0000005c flash_wait
+20020a0a l     O .bss	00000001 initialized
+20020180 l     O .bss	0000007e sector_index
+00000000 l    df *ABS*	00000000 main.cpp
+00000000 l    df *ABS*	00000000 memcpy-armv7m.S.o
+00000000 l    df *ABS*	00000000 new.cpp
+00000000 l    df *ABS*	00000000 nonstd.c
+00000000 l    df *ABS*	00000000 pwm.c
+00000000 l    df *ABS*	00000000 rtc.c
+00000000 l    df *ABS*	00000000 usb_inst.cpp
+00000000 l    df *ABS*	00000000 usb_serial.c
+000284ac l     F .text.itcm	00000060 rx_queue_transfer
+20267480 l     O .bss.dma	00001000 rx_buffer
+0002850c l     F .text.itcm	000000b4 rx_event
+000285c0 l     F .text.itcm	00000090 usb_serial_flush_callback
+20268480 l     O .bss.dma	00002000 txbuffer
+00028650 l     F .text.itcm	000001b8 usb_serial_write.part.0
+20020128 l     O .bss	00000004 rx_available
+2002012c l     O .bss	00000010 rx_count
+20020a0c l     O .bss	00000001 rx_head
+2002013c l     O .bss	00000010 rx_index
+2002014c l     O .bss	00000009 rx_list
+200209d6 l     O .bss	00000002 rx_packet_size
+20020a0d l     O .bss	00000001 rx_tail
+20013760 l     O .bss	00000100 rx_transfer
+20020a11 l     O .bss	00000001 transmit_previous_timeout
+200209da l     O .bss	00000002 tx_available
+20020a12 l     O .bss	00000001 tx_head
+20020a13 l     O .bss	00000001 tx_noautoflush
+200209dc l     O .bss	00000002 tx_packet_size
+20013860 l     O .bss	00000080 tx_transfer
+00000000 l    df *ABS*	00000000 yield.cpp
+200209fb l     O .bss	00000001 yield::running
+00000000 l    df *ABS*	00000000 sm_pool.c
+00000000 l    df *ABS*	00000000 arm_q15_to_float.c
+00000000 l    df *ABS*	00000000 arm_float_to_q15.c
+00000000 l    df *ABS*	00000000 arm_fill_f32.c
+00000000 l    df *ABS*	00000000 arm_copy_f32.c
+00000000 l    df *ABS*	00000000 arm_var_f32.c
+00000000 l    df *ABS*	00000000 arm_power_f32.c
+00000000 l    df *ABS*	00000000 arm_max_q15.c
+00000000 l    df *ABS*	00000000 arm_max_f32.c
+00000000 l    df *ABS*	00000000 arm_cfft_f32.c
+00000000 l    df *ABS*	00000000 arm_biquad_cascade_df2T_f32.c
+00000000 l    df *ABS*	00000000 arm_lms_norm_init_f32.c
+00000000 l    df *ABS*	00000000 arm_fir_interpolate_init_f32.c
+00000000 l    df *ABS*	00000000 arm_fir_interpolate_f32.c
+00000000 l    df *ABS*	00000000 arm_fir_init_f32.c
+00000000 l    df *ABS*	00000000 arm_fir_f32.c
+00000000 l    df *ABS*	00000000 arm_fir_decimate_init_f32.c
+00000000 l    df *ABS*	00000000 arm_fir_decimate_f32.c
+00000000 l    df *ABS*	00000000 arm_correlate_f32.c
+00000000 l    df *ABS*	00000000 arm_biquad_cascade_df1_init_f32.c
+00000000 l    df *ABS*	00000000 arm_biquad_cascade_df1_f32.c
+00000000 l    df *ABS*	00000000 arm_cmplx_mult_cmplx_f32.c
+00000000 l    df *ABS*	00000000 arm_sin_f32.c
+00000000 l    df *ABS*	00000000 arm_cos_f32.c
+00000000 l    df *ABS*	00000000 arm_sub_f32.c
+00000000 l    df *ABS*	00000000 arm_scale_f32.c
+00000000 l    df *ABS*	00000000 arm_offset_f32.c
+00000000 l    df *ABS*	00000000 arm_negate_f32.c
+00000000 l    df *ABS*	00000000 arm_mult_f32.c
+00000000 l    df *ABS*	00000000 arm_dot_prod_f32.c
+00000000 l    df *ABS*	00000000 arm_add_f32.c
+00000000 l    df *ABS*	00000000 arm_bitreversal2.o
+0002b808 l       .text.itcm	00000000 arm_bitreversal_32_0
+0002b872 l       .text.itcm	00000000 arm_bitreversal_16_0
+00000000 l    df *ABS*	00000000 arm_cfft_radix8_f32.c
+00000000 l    df *ABS*	00000000 libm_a-w_fmod.o
+00000000 l    df *ABS*	00000000 libm_a-w_sqrt.o
+00000000 l    df *ABS*	00000000 libm_a-s_cos.o
+00000000 l    df *ABS*	00000000 libm_a-s_sin.o
+00000000 l    df *ABS*	00000000 libm_a-wf_asin.o
+00000000 l    df *ABS*	00000000 libm_a-wf_atan2.o
+00000000 l    df *ABS*	00000000 libm_a-wf_log10.o
+00000000 l    df *ABS*	00000000 libm_a-wf_sqrt.o
+00000000 l    df *ABS*	00000000 libm_a-sf_fabs.o
+00000000 l    df *ABS*	00000000 libm_a-sf_frexp.o
+00000000 l    df *ABS*	00000000 libm_a-exp.o
+00000000 l    df *ABS*	00000000 libm_a-math_err.o
+0002c354 l     F .text.itcm	00000018 with_errno
+0002c36c l     F .text.itcm	00000022 xflow
+00000000 l    df *ABS*	00000000 libm_a-pow.o
+00000000 l    df *ABS*	00000000 libm_a-sf_nan.o
+00000000 l    df *ABS*	00000000 libm_a-sf_exp.o
+00000000 l    df *ABS*	00000000 libm_a-sf_log.o
+00000000 l    df *ABS*	00000000 libm_a-sf_pow.o
+00000000 l    df *ABS*	00000000 libm_a-sinf.o
+00000000 l    df *ABS*	00000000 libm_a-cosf.o
+00000000 l    df *ABS*	00000000 libm_a-math_errf.o
+0002d25c l     F .text.itcm	00000018 with_errnof
+0002d274 l     F .text.itcm	0000001e xflowf
+00000000 l    df *ABS*	00000000 libm_a-e_sqrt.o
+00000000 l    df *ABS*	00000000 libm_a-ef_sqrt.o
+00000000 l    df *ABS*	00000000 libm_a-k_cos.o
+00000000 l    df *ABS*	00000000 libm_a-k_sin.o
+00000000 l    df *ABS*	00000000 libm_a-e_fmod.o
+00000000 l    df *ABS*	00000000 libm_a-e_rem_pio2.o
+00000000 l    df *ABS*	00000000 libm_a-s_fabs.o
+00000000 l    df *ABS*	00000000 libm_a-ef_asin.o
+00000000 l    df *ABS*	00000000 libm_a-ef_atan2.o
+00000000 l    df *ABS*	00000000 libm_a-ef_log10.o
+00000000 l    df *ABS*	00000000 libm_a-sf_atan.o
+00000000 l    df *ABS*	00000000 libm_a-k_rem_pio2.o
+00000000 l    df *ABS*	00000000 libm_a-s_scalbn.o
+00000000 l    df *ABS*	00000000 libm_a-s_floor.o
+00000000 l    df *ABS*	00000000 atexit_arm.o
+00000000 l    df *ABS*	00000000 _arm_addsubdf3.o
+00000000 l    df *ABS*	00000000 _arm_addsubsf3.o
+00000000 l    df *ABS*	00000000 _aeabi_ldivmod.o
+00000000 l    df *ABS*	00000000 _aeabi_uldivmod.o
+00000000 l    df *ABS*	00000000 _udivmoddi4.o
+00000000 l    df *ABS*	00000000 _dvmd_tls.o
+00000000 l    df *ABS*	00000000 libc_a-atol.o
+00000000 l    df *ABS*	00000000 libc_a-callocr.o
+00000000 l    df *ABS*	00000000 libc_a-itoa.o
+00000000 l    df *ABS*	00000000 libc_a-malloc.o
+00000000 l    df *ABS*	00000000 libc_a-mallocr.o
+00000000 l    df *ABS*	00000000 libc_a-mlock.o
+00000000 l    df *ABS*	00000000 libc_a-realloc.o
+00000000 l    df *ABS*	00000000 libc_a-reallocr.o
+00000000 l    df *ABS*	00000000 libc_a-strtol.o
+0002fc40 l     F .text.itcm	00000144 _strtol_l.constprop.0
+00000000 l    df *ABS*	00000000 libc_a-utoa.o
+00000000 l    df *ABS*	00000000 libc_a-cxa_atexit.o
+00000000 l    df *ABS*	00000000 libc_a-efgcvt.o
+00000000 l    df *ABS*	00000000 libc_a-findfp.o
+0002fe54 l     F .text.itcm	00000018 stdio_exit_handler
+0002fe6c l     F .text.itcm	00000040 cleanup_stdio
+0002feac l     F .text.itcm	000000d4 global_stdio_init.part.0
+00000000 l    df *ABS*	00000000 libc_a-fvwrite.o
+00000000 l    df *ABS*	00000000 libc_a-fwalk.o
+00000000 l    df *ABS*	00000000 libc_a-stdio.o
+00000000 l    df *ABS*	00000000 libc_a-vdprintf.o
+00000000 l    df *ABS*	00000000 libc_a-wbuf.o
+00000000 l    df *ABS*	00000000 libc_a-wsetup.o
+00000000 l    df *ABS*	00000000 libc_a-vasnprintf.o
+00000000 l    df *ABS*	00000000 libc_a-memcmp.o
+00000000 l    df *ABS*	00000000 libc_a-memmove.o
+00000000 l    df *ABS*	00000000 libc_a-memset.o
+00000000 l    df *ABS*	00000000 libc_a-strcat.o
+00000000 l    df *ABS*	00000000 libc_a-strchr.o
+00000000 l    df *ABS*	00000000 libc_a-strlcpy.o
+00000000 l    df *ABS*	00000000 libc_a-strncmp.o
+00000000 l    df *ABS*	00000000 libc_a-strncpy.o
+00000000 l    df *ABS*	00000000 libc_a-strstr.o
+00030a20 l     F .text.itcm	000000c6 critical_factorization
+00030ae8 l     F .text.itcm	000001f8 two_way_long_needle
+00000000 l    df *ABS*	00000000 libc_a-stpcpy.o
+00000000 l    df *ABS*	00000000 libc_a-locale.o
+00000000 l    df *ABS*	00000000 libc_a-closer.o
+00000000 l    df *ABS*	00000000 libc_a-lseekr.o
+00000000 l    df *ABS*	00000000 libc_a-readr.o
+00000000 l    df *ABS*	00000000 libc_a-sbrkr.o
+00000000 l    df *ABS*	00000000 libc_a-writer.o
+00000000 l    df *ABS*	00000000 libc_a-errno.o
+00000000 l    df *ABS*	00000000 libc_a-init.o
+00000000 l    df *ABS*	00000000 libc_a-lock.o
+00000000 l    df *ABS*	00000000 libc_a-strcpy.o
+00000000 l    df *ABS*	00000000 libc_a-memchr.o
+00000000 l    df *ABS*	00000000 libc_a-strlen.o
+00000000 l    df *ABS*	00000000 libc_a-__atexit.o
+00000000 l    df *ABS*	00000000 libc_a-freer.o
+00000000 l    df *ABS*	00000000 libc_a-mbtowc_r.o
+00000000 l    df *ABS*	00000000 libc_a-mprec.o
+00000000 l    df *ABS*	00000000 libc_a-wctomb_r.o
+00000000 l    df *ABS*	00000000 libc_a-ecvtbuf.o
+00000000 l    df *ABS*	00000000 libc_a-svfprintf.o
+00000000 l    df *ABS*	00000000 libc_a-fclose.o
+00000000 l    df *ABS*	00000000 libc_a-fflush.o
+00000000 l    df *ABS*	00000000 libc_a-makebuf.o
+00000000 l    df *ABS*	00000000 libc_a-strnlen.o
+00000000 l    df *ABS*	00000000 libc_a-localeconv.o
+00000000 l    df *ABS*	00000000 libc_a-fstatr.o
+00000000 l    df *ABS*	00000000 libc_a-isattyr.o
+00000000 l    df *ABS*	00000000 libm_a-s_frexp.o
+00000000 l    df *ABS*	00000000 libc_a-assert.o
+00000000 l    df *ABS*	00000000 libc_a-dtoa.o
+00033d58 l     F .text.itcm	00000126 quorem
+00000000 l    df *ABS*	00000000 libc_a-wcrtomb.o
+00000000 l    df *ABS*	00000000 libc_a-wcsrtombs.o
+00000000 l    df *ABS*	00000000 libc_a-fiprintf.o
+00000000 l    df *ABS*	00000000 libc_a-svfiprintf.o
+00000000 l    df *ABS*	00000000 libc_a-vfiprintf.o
+00034cf8 l     F .text.itcm	00000076 __sprint_r.part.0
+00035cfc l     F .text.itcm	00000080 __sbprintf
+00000000 l    df *ABS*	00000000 libc_a-fputwc.o
+00000000 l    df *ABS*	00000000 libc_a-wcsnrtombs.o
+00000000 l    df *ABS*	00000000 libm_a-sf_exp2_data.o
+00000000 l    df *ABS*	00000000 libm_a-exp_data.o
+00000000 l    df *ABS*	00000000 libm_a-sf_log_data.o
+00000000 l    df *ABS*	00000000 libm_a-pow_log_data.o
+00000000 l    df *ABS*	00000000 libm_a-sf_pow_log2_data.o
+00000000 l    df *ABS*	00000000 libm_a-sincosf_data.o
+00000000 l    df *ABS*	00000000 libc_a-ctype_.o
+00000000 l    df *ABS*	00000000 arm_common_tables.c
+00000000 l    df *ABS*	00000000 arm_const_structs.c
+00000000 l    df *ABS*	00000000 glcdfont.c
+00000000 l    df *ABS*	00000000 libc_a-impure.o
+00000000 l    df *ABS*	00000000 libc_a-__call_atexit.o
+00000000 l    df *ABS*	00000000 ExFatVolume.cpp
+00000000 l    df *ABS*	00000000 FatVolume.cpp
+00000000 l    df *ABS*	00000000 HardwareSerial.cpp
+60008f90 l     F .text.code	00000008 ___ZN20AudioControlSGTL500011lineInLevelEhh_veneer
+60008f98 l     F .text.code	00000008 ___ZN6RA887513drawLineAngleEssstti_veneer
+60008fa0 l     F .text.code	00000008 ___Z28DrawSpectrumDisplayContainerv_veneer
+60008fa8 l     F .text.code	00000008 ___Z21DrawFrequencyBarValuev_veneer
+60008fb0 l     F .text.code	00000008 ___ZN7FatFile4readEPvj_veneer
+60008fb8 l     F .text.code	00000008 __pinMode_veneer
+60008fc0 l     F .text.code	00000008 ___Z22EnableButtonInterruptsv_veneer
+60008fc8 l     F .text.code	00000008 ___ZN6Si53515resetEv_veneer
+60008fd0 l     F .text.code	00000008 ___Z22ReadSelectedPushButtonv_veneer
+60008fd8 l     F .text.code	00000008 ___ZN20AudioControlSGTL50006enableEv_veneer
+60008fe0 l     F .text.code	00000008 __delay_veneer
+60008fe8 l     F .text.code	00000008 ___ZN6RA88758fillRectEsssst_veneer
+60008ff0 l     F .text.code	00000008 ___ZN9ExFatFile6removeEv_veneer
+60008ff8 l     F .text.code	00000008 ___ZN6RA88755beginE11RA8875sizeshmm_veneer
+60009000 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail12ElementProxyINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEE15getOrCreateDataEv_veneer
+60009008 l     F .text.code	00000008 ___ZN6Si535113set_ms_sourceE12si5351_clock10si5351_pll_veneer
+60009010 l     F .text.code	00000008 ___ZN6RA88757writeToE12RA8875writes_veneer
+60009018 l     F .text.code	00000008 __attachInterrupt_veneer
+60009020 l     F .text.code	00000008 ___Z3nowv_veneer
+60009028 l     F .text.code	00000008 ___Z11ZoomFFTPrepv_veneer
+60009030 l     F .text.code	00000008 ___ZN4File12dec_refcountEv_veneer
+60009038 l     F .text.code	00000008 ___ZN11ArduinoJson7V704PB26detailorIiEENS1_9enable_ifIXaantsrNS1_9IsVariantIT_EE5valuentsrNS1_8is_arrayIS5_EE5valueES5_E4typeERKNS1_11MemberProxyIRNS0_12JsonDocumentEPKcEERKS5__veneer
+60009040 l     F .text.code	00000008 ___ZN6RA887511clearScreenEt_veneer
+60009048 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail14VariantRefBaseINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEE3setIbEEbRKT_.isra.0_veneer
+60009050 l     F .text.code	00000008 ___Z17CalcCplxFIRCoeffsPfS_ifff_veneer
+60009058 l     F .text.code	00000008 __main_veneer
+60009060 l     F .text.code	00000008 ___ZdlPvj_veneer
+60009068 l     F .text.code	00000008 ___ZN6RA887513drawFastVLineEssst_veneer
+60009070 l     F .text.code	00000008 ___ZN6Si535114set_correctionEl16si5351_pll_input_veneer
+60009078 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail14VariantRefBaseINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEE2asIbEENS1_9enable_ifIXntsrNS1_26ConverterNeedsWriteableRefIT_EE5valueESD_E4typeEv_veneer
+60009080 l     F .text.code	00000008 ___Z25DrawBandWidthIndicatorBarv_veneer
+60009088 l     F .text.code	00000008 ___ZN10FsBaseFile5closeEv_veneer
+60009090 l     F .text.code	00000008 ___ZN7FatFile6removeEv_veneer
+60009098 l     F .text.code	00000008 ____libc_init_array_veneer
+600090a0 l     F .text.code	00000008 __cos_veneer
+600090a8 l     F .text.code	00000008 ___Z15ResetHistogramsv_veneer
+600090b0 l     F .text.code	00000008 ___Z18ProcessButtonPressi_veneer
+600090b8 l     F .text.code	00000008 ___Z16UpdateInfoWindowv_veneer
+600090c0 l     F .text.code	00000008 ___ZN6RA887512setTextColorEtt_veneer
+600090c8 l     F .text.code	00000008 __rtc_get_veneer
+600090d0 l     F .text.code	00000008 ___ZN9ExFatFile4readEPvj_veneer
+600090d8 l     F .text.code	00000008 __strstr_veneer
+600090e0 l     F .text.code	00000008 __set_arm_clock_veneer
+600090e8 l     F .text.code	00000008 __fmod_veneer
+600090f0 l     F .text.code	00000008 ___Z11ResetTuningv_veneer
+600090f8 l     F .text.code	00000008 __pwm_init_veneer
+60009100 l     F .text.code	00000008 ___Z26SpectralNoiseReductionInitv_veneer
+60009108 l     F .text.code	00000008 ___Z12ShowSpectrumv_veneer
+60009110 l     F .text.code	00000008 __asinf_veneer
+60009118 l     F .text.code	00000008 ___Z22SaveAnalogSwitchValuesv_veneer
+60009120 l     F .text.code	00000008 ___ZN6RA887510_textWriteEPKct_veneer
+60009128 l     F .text.code	00000008 __arm_fir_decimate_init_f32_veneer
+60009130 l     F .text.code	00000008 __usb_serial_putchar_veneer
+60009138 l     F .text.code	00000008 ___ZN6RA887510fillWindowEt_veneer
+60009140 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail11VariantData6acceptINS1_20PrettyJsonSerializerINS1_6WriterI16usb_serial_classvEEEEEENT_11result_typeERS9_.isra.0_veneer
+60009148 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail14VariantRefBaseINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEE3setIS6_EEbPT_.isra.0_veneer
+60009150 l     F .text.code	00000008 ___ZN20AudioControlSGTL50005writeEjj_veneer
+60009158 l     F .text.code	00000008 ___ZN20AudioControlSGTL50007micGainEj_veneer
+60009160 l     F .text.code	00000008 ___Z21InitLMSNoiseReductionv_veneer
+60009168 l     F .text.code	00000008 __sm_set_pool_veneer
+60009170 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail14VariantRefBaseINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEE3setIlEEbRKT_.isra.0_veneer
+60009178 l     F .text.code	00000008 ___Z13WhichOneToUsePA50_ci_veneer
+60009180 l     F .text.code	00000008 ___ZN5Print10printFloatEdh_veneer
+60009188 l     F .text.code	00000008 __strlcpy_veneer
+60009190 l     F .text.code	00000008 __cosf_veneer
+60009198 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail11VariantData10asIntegralImEET_v_veneer
+600091a0 l     F .text.code	00000008 ___ZN20AudioControlSGTL500012lineOutLevelEh_veneer
+600091a8 l     F .text.code	00000008 ___ZN6RA88758drawRectEsssst_veneer
+600091b0 l     F .text.code	00000008 ___Z19ShowSpectrumdBScalev_veneer
+600091b8 l     F .text.code	00000008 __malloc_veneer
+600091c0 l     F .text.code	00000008 __arm_fir_init_f32_veneer
+600091c8 l     F .text.code	00000008 ___ZNK6RA88755widthEb_veneer
+600091d0 l     F .text.code	00000008 __free_veneer
+600091d8 l     F .text.code	00000008 ___ZN5Print6printfEPKcz_veneer
+600091e0 l     F .text.code	00000008 ___Z12FilterSetSSBv_veneer
+600091e8 l     F .text.code	00000008 ___Z7setTimeiiiiii_veneer
+600091f0 l     F .text.code	00000008 ___ZN20AudioControlSGTL500024adcHighPassFilterDisableEv_veneer
+600091f8 l     F .text.code	00000008 ___ZN6RA887511layerEffectE13RA8875boolean_veneer
+60009200 l     F .text.code	00000008 ___ZN5Print5printEl_veneer
+60009208 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail11VariantData6acceptINS1_20PrettyJsonSerializerINS1_6WriterI4FilevEEEEEENT_11result_typeERS9__veneer
+60009210 l     F .text.code	00000008 ___Znwj_veneer
+60009218 l     F .text.code	00000008 ___Z13CalcFIRCoeffsPfiffiff_veneer
+60009220 l     F .text.code	00000008 ___ZN6RA887513getFontHeightEb_veneer
+60009228 l     F .text.code	00000008 __sin_veneer
+60009230 l     F .text.code	00000008 __sqrt_veneer
+60009238 l     F .text.code	00000008 ___Z13SubmenuSelectPPKcii_veneer
+60009240 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail14VariantRefBaseINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEE3setIiEEbRKT_.isra.0_veneer
+60009248 l     F .text.code	00000008 ___Z15setSyncProviderPFxvE_veneer
+60009250 l     F .text.code	00000008 __rtc_set_veneer
+60009258 l     F .text.code	00000008 ___ZN7FatFile7seekSetEm_veneer
+60009260 l     F .text.code	00000008 ___ZN11ArduinoJson7V704PB26detail11parseNumberEPKcRNS1_11VariantDataE_veneer
+60009268 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail14VariantRefBaseINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEE3setIfEEbRKT_.isra.0_veneer
+60009270 l     F .text.code	00000008 ___Z15FilterBandwidthv_veneer
+60009278 l     F .text.code	00000008 ___Z16SetDecIntFiltersv_veneer
+60009280 l     F .text.code	00000008 ___ZN7FatFile4openEP9FatVolumePKci_veneer
+60009288 l     F .text.code	00000008 ___Z19RedrawDisplayScreenv_veneer
+60009290 l     F .text.code	00000008 ___Z20SetTransmitDitLengthi_veneer
+60009298 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail14VariantRefBaseINS1_12ElementProxyINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEEEE2asIfEENS1_9enable_ifIXntsrNS1_26ConverterNeedsWriteableRefIT_EE5valueESF_E4typeEv_veneer
+600092a0 l     F .text.code	00000008 ___ZN13IntervalTimer11beginCyclesEN6teensy16inplace_functionIFvvELj16ELj8EEEm_veneer
+600092a8 l     F .text.code	00000008 ___Z13ShowBandwidthv_veneer
+600092b0 l     F .text.code	00000008 __eeprom_read_byte_veneer
+600092b8 l     F .text.code	00000008 ___Z10ButtonZoomv_veneer
+600092c0 l     F .text.code	00000008 ___Z14InitFilterMaskv_veneer
+600092c8 l     F .text.code	00000008 ___ZN6Rotary5beginEbb_veneer
+600092d0 l     F .text.code	00000008 ___ZN11ArduinoJson7V704PB26detail13doDeserializeINS1_16JsonDeserializerERNS0_12JsonDocumentENS1_6ReaderI4FilevEENS1_22DeserializationOptionsINS1_14AllowAllFilterEEEEENS0_20DeserializationErrorEOT0_T1_T2_.isra.0_veneer
+600092d8 l     F .text.code	00000008 __usb_serial_write_veneer
+600092e0 l     F .text.code	00000008 __digitalWrite_veneer
+600092e8 l     F .text.code	00000008 __strcpy_veneer
+600092f0 l     F .text.code	00000008 ___Z15AudioMemory_F32i_veneer
+600092f8 l     F .text.code	00000008 ___ZN11ArduinoJson7V704PB26detail14CollectionData7addSlotEPNS1_15ResourceManagerE_veneer
+60009300 l     F .text.code	00000008 __sinf_veneer
+60009308 l     F .text.code	00000008 ___Z12SetIIRCoeffsfffh_veneer
+60009310 l     F .text.code	00000008 ___Z29EraseSpectrumDisplayContainerv_veneer
+60009318 l     F .text.code	00000008 ___ZN9ExFatFile4openEP11ExFatVolumePKci_veneer
+60009320 l     F .text.code	00000008 ___ZN6Si535114drive_strengthE12si5351_clock12si5351_drive_veneer
+60009328 l     F .text.code	00000008 ___ZN6RA88759setCursorEssb_veneer
+60009330 l     F .text.code	00000008 __strlen_veneer
+60009338 l     F .text.code	00000008 ___Z7SetFreqv_veneer
+60009340 l     F .text.code	00000008 ___ZN11ArduinoJson7V704PB26detail11VariantData7releaseEPNS1_15ResourceManagerE_veneer
+60009348 l     F .text.code	00000008 ___ZN6RA887511clearMemoryEb_veneer
+60009350 l     F .text.code	00000008 ___Z10EraseMenusv_veneer
+60009358 l     F .text.code	00000008 ___ZN16AudioRecordQueue5clearEv_veneer
+60009360 l     F .text.code	00000008 ___Z13ShowFrequencyv_veneer
+60009368 l     F .text.code	00000008 ___ZNK6RA88756heightEb_veneer
+60009370 l     F .text.code	00000008 __yield_veneer
+60009378 l     F .text.code	00000008 __arm_fir_interpolate_init_f32_veneer
+60009380 l     F .text.code	00000008 ___ZN6RA887510_fontWriteEPKht_veneer
+60009388 l     F .text.code	00000008 ___ZN20AudioControlSGTL500010setAddressEh_veneer
+60009390 l     F .text.code	00000008 ___ZN7FatFile7getNameEPcj_veneer
+60009398 l     F .text.code	00000008 ___ZN6RA887512getFontWidthEb_veneer
+600093a0 l     F .text.code	00000008 ___Z12SetDitLengthi_veneer
+600093a8 l     F .text.code	00000008 __sqrtf_veneer
+600093b0 l     F .text.code	00000008 ___Z15BandInformationv_veneer
+600093b8 l     F .text.code	00000008 ___ZN6Si53514initEhml_veneer
+600093c0 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail11VariantData10asIntegralIlEET_v_veneer
+600093c8 l     F .text.code	00000008 ___ZN6RA887512setTextColorEt_veneer
+600093d0 l     F .text.code	00000008 ___ZN6RA88759writeRectEssssPKt_veneer
+600093d8 l     F .text.code	00000008 ___ZN10FsBaseFile8openNextEPS_i_veneer
+600093e0 l     F .text.code	00000008 ___Z10SetI2SFreqi_veneer
+600093e8 l     F .text.code	00000008 __usb_init_serialnumber_veneer
+600093f0 l     F .text.code	00000008 ___ZN5Print7printlnEv_veneer
+600093f8 l     F .text.code	00000008 ___Z6read16R4File_veneer
+60009400 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail14VariantRefBaseINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEE2asIfEENS1_9enable_ifIXntsrNS1_26ConverterNeedsWriteableRefIT_EE5valueESD_E4typeEv_veneer
+60009408 l     F .text.code	00000008 ___ZN6RA887511setRotationEh_veneer
+60009410 l     F .text.code	00000008 __atan2f_veneer
+60009418 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail14VariantRefBaseINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEE2asIiEENS1_9enable_ifIXntsrNS1_26ConverterNeedsWriteableRefIT_EE5valueESD_E4typeEv.isra.0_veneer
+60009420 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail11VariantData10asIntegralIiEET_v_veneer
+60009428 l     F .text.code	00000008 ___Z8ShowNamev_veneer
+60009430 l     F .text.code	00000008 ___ZN11ArduinoJson7V704PB26detailorERKNS1_11MemberProxyIRNS0_12JsonDocumentEPKcEES6__veneer
+60009438 l     F .text.code	00000008 ___ZN9ExFatFile8getName8EPcj_veneer
+60009440 l     F .text.code	00000008 ___ZNK11ArduinoJson7V704PB26detail14VariantRefBaseINS1_12ElementProxyINS1_11MemberProxyIRNS0_12JsonDocumentEPKcEEEEE2asIiEENS1_9enable_ifIXntsrNS1_26ConverterNeedsWriteableRefIT_EE5valueESF_E4typeEv_veneer
+60009448 l     F .text.code	00000008 ___ZN6RA887512setFontScaleEh_veneer
+60009450 l     F .text.code	00000008 ___Z16InitializeSDCardv_veneer
+60009458 l     F .text.code	00000008 ___Z14SDPresentCheckv_veneer
+60009460 l     F .text.code	00000008 ___Z6read32R4File_veneer
+60009468 l     F .text.code	00000008 ___ZN6RA887510drawPixelsEPttss_veneer
+60009470 l     F .text.code	00000008 ___ZZN6teensy23inplace_function_detail6vtableIvJEEC4IPFvvEEENS0_7wrapperIT_EEENUlPvS9_E0_4_FUNES9_S9__veneer
+60009478 l     F .text.code	00000008 ___ZN6Si535113output_enableE12si5351_clockh_veneer
+60009480 l     F .text.code	00000008 __memset_veneer
+60009488 l     F .text.code	00000008 __eeprom_write_block_veneer
+60009490 l     F .text.code	00000008 ___ZN7SDClass5beginEh_veneer
+60009498 l     F .text.code	00000008 ___ZN6RA88759useLayersEb_veneer
+600094a0 l     F .text.code	00000008 ___ZN9ExFatFile7seekSetEy_veneer
+600094a8 l     F .text.code	00000008 ___ZN10FsBaseFileC2ERKS__veneer
+600094b0 l     F .text.code	00000008 __memcpy_veneer
+600094b8 l     F .text.code	00000008 ___ZN8FsVolume4openEPKci_veneer
+600094c0 l     F .text.code	00000008 ___Z7SetBandv_veneer
+00035fc0 l     F .text.itcm	00000008 ___Z17loadConfigurationPKcR8config_t_veneer
+00035fc8 l     F .text.itcm	00000008 ___Z14SelectCWOffsetv_veneer
+00035fd0 l     F .text.itcm	00000008 ___Z18EEPROMDataDefaultsv_veneer
+00035fd8 l     F .text.itcm	00000008 __setup_veneer
+00035fe0 l     F .text.itcm	00000008 ___Z18UpdateDecoderFieldv_veneer
+00035fe8 l     F .text.itcm	00000008 ___init_veneer
+00035ff0 l     F .text.itcm	00000008 ___Z14set_audioClockilmb_veneer
+00035ff8 l     F .text.itcm	00000008 ___Z12printCalTypei_veneer
+00036000 l     F .text.itcm	00000008 ___Z20SetFavoriteFrequencyv_veneer
+00036008 l     F .text.itcm	00000008 ___Z20initUserDefinedStuffv_veneer
+00036010 l     F .text.itcm	00000008 ___Z12DrawKeyboardv_veneer
+00036018 l     F .text.itcm	00000008 ___Z14BearingHeadingPc_veneer
+00036020 l     F .text.itcm	00000008 ___Z14SelectCWFilterv_veneer
+00036028 l     F .text.itcm	00000008 ___Z7bmpDrawPKcii_veneer
+00036030 l     F .text.itcm	00000008 ___ZN7TwoWire5beginEv_veneer
+00036038 l     F .text.itcm	00000008 ___Z20GetFavoriteFrequencyv_veneer
+00036040 l     F .text.itcm	00000008 ___Z9printFilePKc_veneer
+00036048 l     F .text.itcm	00000008 ___Z8sineTonei_veneer
+00036050 l     F .text.itcm	00000008 ___Z17saveConfigurationPKcRK8config_tb_veneer
+00036058 l     F .text.itcm	00000008 ___Z13SelectCalFreqv_veneer
+00036060 l     F .text.itcm	00000008 ___Z18loadCalToneBuffersv_veneer
+00036068 l     F .text.itcm	00000008 ___Z13SetKeyPowerUpv_veneer
+00036070 l     F .text.itcm	00000008 ___Z11EEPROMWritev_veneer
+00036078 l     F .text.itcm	00000008 ___reboot_Teensyduino__veneer
+00036080 l     F .text.itcm	00000008 ___Z21initPowerCoefficientsv_veneer
+00036088 l     F .text.itcm	00000008 ___Z17CaptureKeystrokesv_veneer
+00036090 l     F .text.itcm	00000008 ___Z20UpdateEqualizerFieldbb_veneer
+2001c4ec g     O .bss	00000020 rec_EQ_Band9_state
+00023cb8 g     F .text.itcm	00000094 now()
+0001c0f8  w    F .text.itcm	0000003a SDClass::mkdir(char const*)
+0001fa2c g     F .text.itcm	000000b4 FatFile::makeUniqueSfn(FatLfn_t*)
+000271fc g     F .text.itcm	00000010 main
+00025898 g     F .text.itcm	00000012 Rotary::Rotary(char, char)
+0002ebe8 g     F .text.itcm	0000006a .hidden __aeabi_ul2d
+0001925c g     F .text.itcm	000000ec SetFreqCal(int)
+200180d8 g     O .bss	00001e04 abs_ring
+000210d4  w    F .text.itcm	00000004 DedicatedSpiCard::isDedicatedSpi()
+00028808 g     F .text.itcm	00000002 usb_serial_reset
+0001d1f0 g     F .text.itcm	000000ae ExFatFile::addDirCluster()
+00030f18 g     F .text.itcm	00000024 _sbrk_r
+000209b8 g     F .text.itcm	0000009a FatPartition::allocateCluster(unsigned long, unsigned long*)
+00035f98 g     F .text.itcm	00000024 _wcsnrtombs_r
+00024924 g     F .text.itcm	0000011c Si5351::set_pll(unsigned long long, si5351_pll)
+2001c518 g     O .bss	00000004 resetTuningFlag
+00030f3c g     F .text.itcm	0000002c _write_r
+000199ac g     F .text.itcm	00000038 AlphaBetaMag(float, float)
+20000d18 g     O .data	00000120 .hidden __logf_data
+2001b4e0 g     O .bss	00000004 filter_pos
+20020234 g     O .bss	00000004 signalStartOld
+00015018 g     F .text.itcm	000005e0 Kim1_NR()
+0002ebf8 g     F .text.itcm	0000005a .hidden __floatdidf
+000305e4 g     F .text.itcm	00000060 memcmp
+200151a8 g     O .bss	00000004 AudioOutputI2SQuad::block_ch2_1st
+0000cca4 g     F .text.itcm	000002f8 FilterSetSSB()
+200150f4 g     O .bss	00000004 EventResponder::firstYield
+000237f8 g     F .text.itcm	000000ac AudioStream_F32::allocate_f32()
+200151b4 g     O .bss	00000004 AudioOutputI2SQuad::block_ch3_2nd
+0002b64c g     F .text.itcm	0000008c arm_mult_f32
+20206d00 g     O .bss.dma	00000200 NR_last_sample_buffer_L
+00028da8 g     F .text.itcm	000000a0 arm_q15_to_float
+2024b6e8 g     O .bss.dma	0000206c FIR_dec1_I_state
+00030eec g     F .text.itcm	0000002c _read_r
+0002d2ac g     F .text.itcm	0000000c .hidden __math_oflowf
+20014ab4 g     O .bss	000004d4 SD
+00030f68 g     F .text.itcm	0000000c __errno
+200131d8 g     O .data	00000004 zoomIndex
+00031acc g     F .text.itcm	00000154 __mdiff
+0001e010 g     F .text.itcm	0000004c ExFatFile::cmpName(DirName_t const*, ExName_t*)
+0001a5ac g     F .text.itcm	000000dc _spi_dma_rxISR0()
+20200000 g     O .bss.dma	00000400 EQ1_float_buffer_L
+20007124 g     O .data	00000010 arm_cfft_sR_f32_len256
+20013908 g     O .bss	00000008 Osc_Q
+200209f7 g     O .bss	00000001 HardwareSerialIMXRT::s_count_serials_with_serial_events
+000180f8  w    F .text.itcm	00000054 AudioPlayQueue::AudioPlayQueue()
+000246fc g     F .text.itcm	0000005c Si5351::set_int(si5351_clock, unsigned char)
+00033e80 g     F .text.itcm	00000cec _dtoa_r
+0001e5b8 g     F .text.itcm	000000e0 ExFatPartition::init(FsBlockDeviceInterface*, unsigned char)
+00022574 g     F .text.itcm	000000b8 SdioCard::writeStop()
+20012c0c g     O .data	00000004 fixed_gain
+00016dbc g     F .text.itcm	0000012c plotCalGraphics(int)
+2001b488 g     O .bss	00000004 ditTimerOn
+00020ddc g     F .text.itcm	00000084 FsBaseFile::FsBaseFile(FsBaseFile const&)
+20013900 g     O .bss	00000008 Osc_I
+2001b4d4 g     O .bss	00000004 filterEncoderMove
+00027ae0  w    F .text.itcm	00000004 abort
+2001c4cc g     O .bss	00000020 rec_EQ_Band8_state
+2001b4ac g     O .bss	00000004 errno
+20204800 g     O .bss.dma	00000c00 LMS_nr_delay
+00025c14 g     F .text.itcm	00000020 AudioConnection::connect(AudioStream&, unsigned char, AudioStream&, unsigned char)
+0002a2ac g     F .text.itcm	000004da arm_fir_f32
+20003b54  w    O .data	00000010 SPIClass::beginTransaction(SPISettings)::clk_sel
+20003968  w    O .data	00000024 vtable for FsFile
+00031a88 g     F .text.itcm	00000042 __mcmp
+00031db8 g     F .text.itcm	00001b44 _svfprintf_r
+0001c8d4 g     F .text.itcm	0000002c ExFatFile::peek()
+0002f850 g     F .text.itcm	00000018 realloc
+20020a0b g     O .bss	00000001 keyPressedOn
+0001e830 g     F .text.itcm	0000001e FatFile::close()
+600095b4 g       .text.code	00000000 __init_array_end
+200138e8 g     O .bss	00000008 OSC_COS
+00025fc8 g     F .text.itcm	00000104 IntervalTimer::beginCycles(teensy::inplace_function<void (), 16u, 8u>, unsigned long)
+00033c4c g     F .text.itcm	0000002c _fstat_r
+200151a4 g     O .bss	00000004 AudioOutputI2SQuad::block_ch1_2nd
+0001e34c g     F .text.itcm	00000036 ExFatPartition::dirCache(DirPos_t*, unsigned char)
+20010cc8 g     O .data	00000001 NR_L_frames
+000205f0 g     F .text.itcm	00000110 FatFile::getName8(char*, unsigned int)
+20020374 g     O .bss	00000004 transmitDitLength
+20011da0 g     O .data	0000000c S5_Rec
+00021360 g     F .text.itcm	0000006e SharedSpiCard::readStop()
+0001c628 g     F .text.itcm	00000022 ExFatFile::getCreateDateTime(unsigned short*, unsigned short*)
+0002ec60 g     F .text.itcm	00000160 .hidden __aeabi_fadd
+00023244 g     F .text.itcm	00000028 SdSpiArduinoDriver::begin(SdSpiConfig)
+0000c480 g     F .text.itcm	000000e4 UpdateCompressionField()
+000020c0 g     F .text.itcm	000000dc RA8875::drawLineAngle(short, short, short, unsigned short, unsigned short, int)
+0002edc0 g     F .text.itcm	00000024 .hidden __aeabi_ui2f
+20011e0c g     O .data	0000000c S9_Xmt
+20015160 g     O .bss	00000004 AudioInputI2SQuad::block_ch1
+0000cf9c g     F .text.itcm	0000009c EncoderCenterTune()
+20010e1c g     O .data	00000004 ANR_lidx_min
+0000f4b0  w    F .text.itcm	00000124 ArduinoJson::V704PB2::detail::VariantData::release(ArduinoJson::V704PB2::detail::ResourceManager*)
+0002eb60 g     F .text.itcm	0000001e .hidden __aeabi_ui2d
+2001b56c g     O .bss	00000004 hh1
+0001e48c g     F .text.itcm	000000be ExFatPartition::freeChain(unsigned long)
+00000020 g     F .text.itcm	00000164 DoGapHistogram(long)
+2001b570 g     O .bss	00000004 hh2
+2001b54c g     O .bss	00000004 goertzelMagnitude
+20003750 g     O .data	00000070 SPIClass::spiclass_lpspi4_hardware
+20015004 g     O .bss	00000004 FsDateTime::callback
+20010e08 g     O .data	00000004 ANR_dline_size
+0002a7c4 g     F .text.itcm	00000378 arm_fir_decimate_f32
+000262d8 g     F .text.itcm	00000164 Print::printFloat(double, unsigned char)
+200122e0 g     O .data	00000004 IntervalTimer::nvic_priorites
+0002e8e4 g     F .text.itcm	0000027a .hidden __aeabi_dsub
+00034b6c g     F .text.itcm	0000004c _wcrtomb_r
+6000214c g     F .text.code	00000190 BearingHeading(char*)
+200116c0 g     O .data	00000050 EQ_Band2Coeffs
+20020200 g     O .bss	00000004 selectedMapIndex
+20010e18 g     O .data	00000004 ANR_lidx_max
+00026c6c g     F .text.itcm	00000070 pinMode
+00006c00  w    F .text.itcm	00000002 teensy::inplace_function_detail::vtable<void>::vtable<void (*)()>(teensy::inplace_function_detail::wrapper<void (*)()>)::{lambda(void*)#4}::_FUN(void*)
+2020af10 g     O .bss.dma	00000080 FIR_int2_coeffs
+20000318  w    O .data	00000048 ArduinoJson::V704PB2::detail::FloatTraits<double, 8u>::positiveBinaryPowersOfTen()::factors
+2001b554 g     O .bss	00000004 hang_backmult
+2002037c g     O .bss	00000004 transmitPowerLevelTemp
+20003a24 g     O .data	00000030 vtable for SDClass
+00024648 g     F .text.itcm	00000044 Si5351::si5351_write_bulk(unsigned char, unsigned char, unsigned char*)
+0000c284 g     F .text.itcm	00000060 UpdateIncrementField()
+0000177c g     F .text.itcm	0000005a RA8875::BTE_moveTo(short, short)
+20020a40 g       .bss	00000000 _ebss
+00023524 g     F .text.itcm	000000a4 FsUtf::cpToMb(unsigned long, char*, char*)
+00000d28 g     F .text.itcm	0000005a RA8875::getFontHeight(bool)
+00000ec8 g     F .text.itcm	000000b4 RA8875::_writeData(unsigned char)
+00030fc8 g     F .text.itcm	00000002 __retarget_lock_release_recursive
+200139cc g     O .bss	00000004 CWLevelTimer
+200209f5 g     O .bss	00000001 AudioInputI2SQuad::update_responsibility
+20013b78 g     O .bss	0000000c FIR_int1_Q
+0000219c g     F .text.itcm	00000030 RA8875::drawFastVLine(short, short, short, unsigned short)
+60008818 g     F .text.code	00000002 startup_default_early_hook
+0001ab74  w    F .text.itcm	0000000c DMAChannel::~DMAChannel()
+2020cfdc g     O .bss.dma	000004fc FIR_CW_DecodeR_state
+0001e128 g     F .text.itcm	0000006a ExFatFile::hashName(ExName_t*)
+00014fe4 g     F .text.itcm	00000030 NROptions()
+20011620 g     O .data	00000050 EQ_Band14Coeffs
+200150cc g     O .bss	00000008 AudioOutputI2S::dma
+20201800 g     O .bss.dma	00000400 EQ7_float_buffer_L
+0002a788 g     F .text.itcm	0000003a arm_fir_decimate_init_f32
+00006cb0  w    F .text.itcm	0000000c IntervalTimer::~IntervalTimer()
+20020240 g     O .bss	00000004 smeterLength
+00010214  w    F .text.itcm	00000150 ArduinoJson::V704PB2::detail::operator|(ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> const&, char const*)
+20020a0e g     O .bss	00000001 save_last_frequency
+0001d6d8 g     F .text.itcm	00000280 ExFatFile::write(void const*, unsigned int)
+00001124 g     F .text.itcm	00000006 RA8875::readStatus()
+000067a8 g     F .text.itcm	000000a8 read16(File&)
+20003b44  w    O .data	00000010 teensy::inplace_function<void (), 16u, 8u>::inplace_function<void (&)(), void (*)(), void>(void (&)())::vt
+00033c44 g     F .text.itcm	00000008 _localeconv_r
+0002ebe8 g     F .text.itcm	0000006a .hidden __floatundidf
+0000f204 g     F .text.itcm	000000a8 FreqShift1()
+0000a1b0 g     F .text.itcm	000000d4 ApproxAtan2(float, float)
+0001fe4c g     F .text.itcm	00000110 FatFile::remove()
+00033ca0 g     F .text.itcm	00000078 frexp
+2001b594 g     O .bss	00000028 i2s_quadOut
+00001514 g     F .text.itcm	00000070 RA8875::setBackgroundColor(unsigned short)
+600084fc g     F .text.code	00000034 TwoWire::configSDApin(unsigned char)
+00029e44 g     F .text.itcm	00000444 arm_fir_interpolate_f32
+200038e0 g     O .data	0000001c vtable for AudioControlSGTL5000
+20010e28 g     O .data	00000004 ANR_taps
+202517dc g     O .bss.dma	00000030 Fir_Zoom_FFT_Decimate1_coeffs
+2001b44c g     O .bss	00000004 decay_mult
+20011670 g     O .data	00000050 EQ_Band1Coeffs
+000258ac g     F .text.itcm	00000030 Rotary::begin(bool, bool)
+0002edc8 g     F .text.itcm	0000001c .hidden __floatsisf
+2001b4c0 g     O .bss	00000004 fast_backaverage
+2001b324 g     O .bss	00000004 bin
+0002d0a0 g     F .text.itcm	000001bc cosf
+00019d70 g     F .text.itcm	00000068 SetupMode(int)
+00000c44 g     F .text.itcm	00000064 RA8875::RA8875(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+20013b84 g     O .bss	0000000c FIR_int2_EX_I
+0000e260 g     F .text.itcm	00000408 CalcCplxFIRCoeffs(float*, float*, int, float, float, float)
+20015084 g     O .bss	00000004 AudioStream::unused
+0001a998 g     F .text.itcm	0000001c SPIClass::pinIsMOSI(unsigned char)
+0001b100 g     F .text.itcm	00000140 AudioInputI2SQuad::update()
+0001950c g     F .text.itcm	00000060 ResetTuning()
+00025eac g     F .text.itcm	00000044 EventResponder::runFromInterrupt()
+000237e0 g     F .text.itcm	00000016 AudioMemory_F32(int)
+200131fa g     O .data	00000001 NB_taps
+2001316c g     O .data	00000004 pmode
+200209b8 g     O .bss	00000004 zoom_sample_ptr
+0000b150 g     F .text.itcm	000003bc BandInformation()
+20020a07 g     O .bss	00000001 display_S_meter_or_spectrum_state
+200209f1 g     O .bss	00000001 AudioStream::update_scheduled
+200209be g     O .bss	00000002 AudioStream::memory_used_max
+0005e400 g       *ABS*	00000000 _flashimagelen
+000232c4 g     F .text.itcm	00000016 SdSpiArduinoDriver::receive()
+20007114 g     O .data	00000010 arm_cfft_sR_f32_len2048
+200209ff g     O .bss	00000001 buttonInterruptsEnabled
+0002468c g     F .text.itcm	00000070 Si5351::si5351_read(unsigned char)
+000180f8  w    F .text.itcm	00000054 AudioPlayQueue::AudioPlayQueue()
+20237e54 g     O .bss.dma	00000400 float_buffer_R_CW
+200129e0 g     O .data	0000001c bandswitchPins
+00001a7c g     F .text.itcm	00000050 RA8875::clearMemory(bool)
+60003c20 g     F .text.code	00000010 EEPROMWrite()
+20238254 g     O .bss.dma	00000400 float_buffer_L_CW
+20003800 g     O .data	0000000c vtable for AudioAmplifier
+20011ad4 g     O .data	00000190 FIR_Hilbert_coeffs_neg45
+0001a528 g     F .text.itcm	0000000c lpi2c4_isr()
+0000efd4 g     F .text.itcm	0000018c SetDecIntFilters()
+00025898 g     F .text.itcm	00000012 Rotary::Rotary(char, char)
+2001b364 g     O .bss	00000004 calTypeFlag
+000360a0 g     F .fini	00000000 _fini
+20003ae8  w    O .data	00000014 vtable for ArduinoJson::V704PB2::detail::DefaultAllocator
+0001a080 g     F .text.itcm	0000003c TwoWire::write(unsigned char const*, unsigned int)
+00000ca8 g     F .text.itcm	0000000e RA8875::width(bool) const
+00013ea8 g     F .text.itcm	0000003c SpectrumOptions()
+0002da30 g     F .text.itcm	0000020c __ieee754_asinf
+6000357c g     F .text.code	00000224 BearingMaps()
+20013b90 g     O .bss	0000000c FIR_int2_EX_Q
+00023a58 g     F .text.itcm	00000170 breakTime(long long, tmElements_t&)
+2001b5f0 g     O .bss	00000004 interElementGap
+20011cd4 g     O .data	0000000c S13_Rec
+0002841c g     F .text.itcm	0000001c usb_receive
+0001f3d8 g     F .text.itcm	0000000c FatFile::sync()
+00006c04 g     F .text.itcm	000000ac ButtonISR()
+0001be9c  w    F .text.itcm	00000002 SDClass::~SDClass()
+200209e8 g     O .bss	00000001 NB_test
+0000e788 g     F .text.itcm	000003a4 DoReceiveEQ()
+00021bac  w    F .text.itcm	00000076 SharedSpiCard::readCSD(csd_t*)
+0001c484 g     F .text.itcm	000000d4 SDClass::begin(unsigned char)
+2002026c g     O .bss	00000004 tau_hang_backmult
+2001510c g     O .bss	00000008 AudioOutputTDM2::dma
+00010c20  w    F .text.itcm	0000008c float ArduinoJson::V704PB2::detail::VariantData::asFloat<float>() const
+2020c554 g     O .bss.dma	0000058c FIR_Hilbert_state_R
+20013c20 g     O .bss	00000004 NR_FFT
+2001b4d8 g     O .bss	00000004 filterWidth
+00021428 g     F .text.itcm	000000e8 SharedSpiCard::cardCommand(unsigned char, unsigned long)
+20020378 g     O .bss	00000004 transmitDitUnshapedBlocks
+00018208  w    F .text.itcm	00000148 AudioEffectCompressor_F32::AudioEffectCompressor_F32()
+20206700 g     O .bss.dma	00000400 NR_output_audio_buffer
+60003c30 g     F .text.code	00000020 EEPROMRead()
+20010e0c g     O .data	00000004 ANR_gamma
+2001b428 g     O .bss	00000004 currentFreq
+0001d058 g     F .text.itcm	00000138 ExFatFile::syncDir()
+2001b368 g     O .bss	00000004 centerTuneFlag
+2001b308 g     O .bss	00000004 audiou
+200139c8 g     O .bss	00000004 ANR_mask
+00022ab0 g     F .text.itcm	000002d8 SdioCard::begin(SdioConfig)
+2001b5fc g     O .bss	0000000a keyboardBuffer
+60008818  w    F .text.code	00000002 startup_early_hook
+20020364 g     O .bss	00000004 thresholdArithmeticMean
+20003a78 g     O .data	00000070 vtable for SdioCard
+20013164 g     O .data	00000004 old_demod_mode
+0002bf38 g     F .text.itcm	00000080 cos
+60013b88  w    O .text.progmem	00000050 TwoWire::i2c1_hardware
+20012874 g     O .data	00000004 __malloc_trim_threshold
+20013160 g     O .data	00000004 oldCursorPosition
+00020a54 g     F .text.itcm	00000024 FatPartition::fatGet(unsigned long, unsigned long*)
+00014268 g     F .text.itcm	000001b8 VFOSelect()
+20013c38 g     O .bss	00000004 NR_onemtwobeta
+00025df4 g     F .text.itcm	00000034 DMAChannel::release()
+00002db0 g     F .text.itcm	00000140 RA8875::_circle_helper(short, short, short, unsigned short, bool)
+200037d0  w    O .data	00000024 vtable for StreamFile<FsBaseFile, unsigned long long>
+000031c4 g     F .text.itcm	000000f4 RA8875::_drawChar_unc(short, short, int, int, unsigned short)
+20231a50 g     O .bss.dma	00000200 NR_long_tone_gain
+00027ae8 g     F .text.itcm	00000060 tempmonGetTemp
+00000d84 g     F .text.itcm	000000a2 RA8875::_STRlen_helper(char const*, unsigned short)
+20208b00 g     O .bss.dma	00000404 FIR_Coef_Q
+0000d868 g     F .text.itcm	000001dc ZoomFFTPrep()
+20006d84 g     O .data	00000380 armBitRevIndexTable512
+000213d0 g     F .text.itcm	00000018 SharedSpiCard::syncDevice()
+00030404 g     F .text.itcm	000000b0 __swbuf_r
+20012884 g     O .data	00000004 _impure_ptr
+0000d4e8 g     F .text.itcm	000000d8 EncoderFineTune()
+000066f8  w    F .text.itcm	000000b0 File::~File()
+20202400 g     O .bss.dma	00000400 EQ10_float_buffer_L
+0001a204 g     F .text.itcm	00000100 TwoWire::endTransmission(unsigned char)
+20019edc g     O .bss	00000004 adjdBold
+2001b4d0 g     O .bss	00000004 filterEncoder
+2001b558 g     O .bss	00000004 hang_counter
+200209ce g     O .bss	00000002 AudioOutputI2SQuad::ch4_offset
+20010cc9 g     O .data	00000001 NR_N_frames
+00002ef0 g     F .text.itcm	00000052 RA8875::fillCircle(short, short, short, unsigned short)
+000360a4 g       .ARM.exidx	00000000 __exidx_start
+0001be84 g     F .text.itcm	00000016 AudioRecordQueue::freeBuffer()
+00035e28 g     F .text.itcm	00000066 _fputwc_r
+000178e4 g     F .text.itcm	00000200 ShowSpectrum2()
+20207d00 g     O .bss.dma	00000600 NR_X
+00023130 g     F .text.itcm	000000f4 SdioCard::writeSector(unsigned long, unsigned char const*)
+00011250  w    F .text.itcm	000001cc ArduinoJson::V704PB2::detail::FloatParts<double>::FloatParts(double)
+20015148 g     O .bss	00000008 AudioInputSPDIF3::dma
+2001b57c g     O .bss	00000018 i2s_quadIn
+0002055c g     F .text.itcm	00000094 FatFile::getSFN(char*, unsigned int)
+00000000 g       .text.itcm	00000000 _stext
+00025918  w    F .text.itcm	0000000c AudioStream::update_all()
+00025988 g     F .text.itcm	000000ac AudioStream::allocate()
+0000a288 g     F .text.itcm	0000047c AMDecodeSAM()
+2001c348 g     O .bss	00000004 radioState
+0002849c  w    F .text.itcm	00000004 usb_serial_class::flush()
+2001b640 g     O .bss	00000004 noSignalTimeStamp
+0003073c g     F .text.itcm	000000a4 memset
+00001288 g     F .text.itcm	000001ba RA8875::setCursor(short, short, bool)
+00019950 g     F .text.itcm	0000005c log10f_fast(float)
+200209c0 g     O .bss	00000002 AudioStream::cpu_cycles_total
+00030e48 g     F .text.itcm	00000046 stpcpy
+0002edf4 g     F .text.itcm	0000007c .hidden __floatdisf
+0002c418 g     F .text.itcm	00000028 .hidden __math_check_oflow
+60001000 g     O .text.headers	00000020 ImageVectorTable
+0000d038 g     F .text.itcm	00000078 EncoderVolume()
+2001c3ac g     O .bss	00000020 rec_EQ_Band13_state
+00000f7c g     F .text.itcm	000000c4 RA8875::writeData16(unsigned short)
+0001b240 g     F .text.itcm	000000f4 AudioInputI2SQuad::begin()
+00000e28 g     F .text.itcm	000000a0 RA8875::colorInterpolation(unsigned short, unsigned short, unsigned short, unsigned short)
+20280000 g       .text.csf	00000000 _heap_end
+000308ec g     F .text.itcm	00000044 strlcpy
+00025a34 g     F .text.itcm	00000050 AudioStream::release(audio_block_struct*)
+20011710 g     O .data	00000050 EQ_Band3Coeffs
+00017f68 g     F .text.itcm	0000000a getTeensy3Time()
+000063c0  w    F .text.itcm	00000014 SDFile::write(void const*, unsigned int)
+0001da34 g     F .text.itcm	000000b0 ExFatFormatter::writeUpcase(unsigned long)
+0002c9c8 g     F .text.itcm	000000e4 expf
+70000000 g       .bss.extram	00000000 _extram_end
+00029198 g     F .text.itcm	000000b2 arm_max_q15
+00024a40 g     F .text.itcm	0000002a Si5351::set_correction(long, si5351_pll_input)
+0002d4f0 g     F .text.itcm	00000298 __ieee754_fmod
+00023778 g     F .text.itcm	00000068 AudioStream_F32::initialize_f32_memory(audio_block_f32_t*, unsigned int)
+00010ac8  w    F .text.itcm	00000158 long ArduinoJson::V704PB2::detail::VariantData::asIntegral<long>() const
+00028360 g     F .text.itcm	00000064 usb_config_tx
+0001a764 g     F .text.itcm	00000234 SPIClass::begin()
+00026808 g     F .text.itcm	000002f0 set_arm_clock
+0000d1d0 g     F .text.itcm	00000104 GetEncoderValue(int, int, int, int, char*)
+2001b440 g     O .bss	00000004 dc_insert
+200122f4 g     O .data	00000004 __brkval
+0002dff8 g     F .text.itcm	00000690 __kernel_rem_pio2
+20020384 g     O .bss	00000004 updateDisplayCounter
+20202800 g     O .bss.dma	00000400 EQ11_float_buffer_L
+20020a17 g     O .bss	00000001 usb_high_speed
+20253838 g     O .bss.dma	0000202c Fir_Zoom_FFT_Decimate_I1_state
+000260cc g     F .text.itcm	00000070 IntervalTimer::end()
+000126c8  w    F .text.itcm	000000a0 ArduinoJson::V704PB2::detail::TextFormatter<ArduinoJson::V704PB2::detail::Writer<File, void> >::writeString(char const*, unsigned int)
+200209cc g     O .bss	00000002 AudioOutputI2SQuad::ch3_offset
+60008824 g     F .text.code	00000004 startup_debug_reset
+0002188c g     F .text.itcm	00000068 SharedSpiCard::readStart(unsigned long)
+6000203c g     F .text.code	00000050 FindCountry(char*)
+0002eba4 g     F .text.itcm	00000042 .hidden __extendsfdf2
+00027ad0  w    F .text.itcm	00000004 _isatty
+20014aa4 g     O .bss	00000004 S
+200209e9 g     O .bss	00000001 NR_Kim
+000062dc  w    F .text.itcm	00000018 SDFile::read(void*, unsigned int)
+20013b6c g     O .bss	0000000c FIR_int1_I
+00028438 g     F .text.itcm	00000004 usb_transfer_status
+000312a4 g     F .text.itcm	000000a0 _malloc_trim_r
+00028494  w    F .text.itcm	00000004 usb_serial_class::clear()
+0001e850 g     F .text.itcm	00000052 FatFile::dirEntry(DirFat_t*)
+2001b4e8 g     O .bss	00000004 fineTuneEncoderMove
+0002f2b8 g     F .text.itcm	00000010 malloc
+2002036c g     O .bss	00000004 topGapIndexOld
+00031998 g     F .text.itcm	000000f0 __lshift
+0001ea50 g     F .text.itcm	000000ea FatFile::mkdir(FatFile*, char const*, bool)
+00010cac  w    F .text.itcm	00000214 ArduinoJson::V704PB2::detail::enable_if<!ArduinoJson::V704PB2::detail::ConverterNeedsWriteableRef<float>::value, float>::type ArduinoJson::V704PB2::detail::VariantRefBase<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> >::as<float>() const
+20013184 g     O .data	00000034 topMenus
+200209b4 g     O .bss	00000004 xrState
+2001b490 g     O .bss	00000004 dxLon
+20013a94 g     O .bss	00000030 CW_AudioFilter5_state
+20010ce0 g     O .data	00000120 _impure_data
+00000948 g     F .text.itcm	000000c0 irq_gpio6789
+00026758 g     F .text.itcm	000000b0 analogRead
+200131b8  w    O .data	00000016 usb_string_serial_number
+60008828 g     F .text.code	00000110 configure_cache
+000210bc  w    F .text.itcm	00000006 SdCardInterface::status()
+0002b7f8 g     F .text.itcm	00000000 arm_bitreversal_32
+00019fcc g     F .text.itcm	0000003c arm_clip_f32(float const*, float*, float, float, unsigned long)
+0001ab24 g     F .text.itcm	00000008 SPIClass::transfer(void const*, void*, unsigned int)
+20003a54 g     O .data	00000024 vtable for TwoWire
+000264b8 g     F .text.itcm	00000158 breakTime(unsigned long, DateTimeFields&)
+0002bea0 g     F .text.itcm	00000050 fmod
+60009608 g     O .text.progmem	00006f00 dxCities
+00013fec g     F .text.itcm	00000134 MicGainSet()
+20004c54 g     O .data	00001dc0 armBitRevIndexTable2048
+2020d4d8 g     O .bss.dma	0000085c FIR_dec2_EX_I_state
+00034bb8 g     F .text.itcm	00000016 _wcsrtombs_r
+2001b620 g     O .bss	00000004 micGainChoice
+20200800 g     O .bss.dma	00000400 EQ3_float_buffer_L
+0002c3e0 g     F .text.itcm	0000001e .hidden __math_invalid
+2001b660 g     O .bss	00000004 onemfast_backmult
+0001af38 g     F .text.itcm	00000028 AudioControlSGTL5000::adcHighPassFilterDisable()
+00030644 g     F .text.itcm	000000f8 memmove
+0001e408 g     F .text.itcm	00000042 ExFatPartition::fatGet(unsigned long, unsigned long*)
+200180d4 g     O .bss	00000004 abs_out_sample
+20015170 g     O .bss	00000008 AudioInputI2S_F32::dma
+20003914  w    O .data	0000000c vtable for AudioEffectCompressor_F32
+20003920  w    O .data	0000001c vtable for AudioControlSGTL5000_Extended
+20011580 g     O .data	00000050 EQ_Band12Coeffs
+200209bc g     O .bss	00000002 AudioStream::memory_used
+200147dc g     O .bss	00000164 Q_out_L_Ex
+0000c2e4 g     F .text.itcm	000000dc UpdateNotchField()
+0001b014 g     F .text.itcm	000000ec AudioInputI2SQuad::isr()
+2023c654 g     O .bss.dma	00002000 float_buffer_R2
+00025f1c  w    F .text.itcm	00000002 teensy::inplace_function_detail::vtable<void>::vtable()::{lambda(void*, void*)#3}::_FUN(void*, void*)
+2001b4c8 g     O .bss	00000004 fast_decay_mult
+00027340 g     F .text.itcm	00000004 operator new(unsigned int)
+20003ba4 g     O .data	00000060 .hidden __inv_pio4
+200131d0 g     O .data	00000004 xExpand
+000307e0 g     F .text.itcm	0000003e strcat
+00025e28 g     F .text.itcm	00000084 EventResponder::triggerEventNotImmediate()
+20011d40 g     O .data	0000000c S1_Rec
+00019a04 g     F .text.itcm	00000248 SaveAnalogSwitchValues()
+00014420 g     F .text.itcm	00000bc0 EEPROMOptions()
+000062f4  w    F .text.itcm	00000038 StreamFile<FsBaseFile, unsigned long long>::read()
+20020a09 g     O .bss	00000001 hang_enable
+70000000 g       .bss.extram	00000000 _extram_start
+200209ca g     O .bss	00000002 AudioOutputI2SQuad::ch2_offset
+6005e400 g       .text.csf	00000000 __text_csf_end
+20014678 g     O .bss	00000164 Q_out_L
+2001521c g     O .bss	00000004 FatVolume::m_cwv
+00030930 g     F .text.itcm	0000008a strncmp
+20017f5c g     O .bss	00000001 __lock___malloc_recursive_mutex
+00025c34 g     F .text.itcm	00000094 AudioConnection::disconnect()
+00023660 g     F .text.itcm	000000b8 toUpcase(unsigned short)
+20020a04 g     O .bss	00000001 currentDecoderIndex
+2001b4ec g     O .bss	0000002c float2Int1
+2020a658 g     O .bss.dma	0000045c FIR_int1_I_state
+2020bfc8 g     O .bss.dma	0000058c FIR_Hilbert_state_L
+0001d2a0 g     F .text.itcm	000000a2 ExFatFile::rename(ExFatFile*, char const*)
+00000a50  w    F .text.itcm	00000004 Print::availableForWrite()
+20015010 g     O .bss	00000004 AudioStream::first_update
+200203a8 g     O .bss	00000004 userxmtMode
+2001b550 g     O .bss	00000004 hang_backaverage
+20012c54 g     O .data	00000004 h
+0001bbe8 g     F .text.itcm	000001be AudioPlayQueue::play(short const*, unsigned long)
+00028ad8 g     F .text.itcm	0000002c usb_serial_putchar
+00013404 g     F .text.itcm	00000498 ProcessEqualizerChoices(int, char*)
+00000cb8 g     F .text.itcm	0000000e RA8875::height(bool) const
+200151b8 g     O .bss	00000004 AudioOutputI2SQuad::block_ch4_1st
+6000754c g     F .text.code	00000002 T4_rtc_set(unsigned long)
+60008280 g     F .text.code	000000a4 sineTone(int)
+20007ba8 g     O .data	00000804 sinTable_f32
+200203e8 g     O .bss	00000004 w
+0002924c g     F .text.itcm	000000cc arm_max_f32
+20209430 g     O .bss.dma	000008b4 FIR_dec2_I_state
+000071d0 g     F .text.itcm	0000001c ButtonMenuIncrease()
+600094c8 g       .text.code	00000000 __preinit_array_end
+00023364 g     F .text.itcm	00000056 FsCache::sync()
+2002039c g     O .bss	00000004 usec
+2001c3cc g     O .bss	00000020 rec_EQ_Band14_state
+0000890c g     F .text.itcm	00000240 CW_ExciterIQData(int)
+00006340  w    F .text.itcm	00000014 StreamFile<FsBaseFile, unsigned long long>::flush()
+200209fc  w    O .bss	00000001 SDFile::name()::zeroterm
+0002b76c g     F .text.itcm	0000008c arm_add_f32
+00030fcc g     F .text.itcm	000000ba strcpy
+00026bf4 g     F .text.itcm	00000054 digitalWrite
+20019ef0 g     O .bss	00000004 attack_mult
+60003c50 g     F .text.code	00000018 EEPROMWriteSize(int)
+20013c24 g     O .bss	00000004 NR_Index
+000223d8 g     F .text.itcm	0000007c SdioCard::isBusy()
+00030580 g     F .text.itcm	00000062 _vasnprintf_r
+20002718 g     O .data	00000004 DF1
+20020170 g     O .bss	00000004 s_roomC_hotC
+0001e8c4 g     F .text.itcm	00000020 FatFile::getModifyDateTime(unsigned short*, unsigned short*)
+2001b480 g     O .bss	00000004 displayBearing
+200038a0  w    O .data	00000028 vtable for usb_serial_class
+00026168  w    F .text.itcm	00000006 usb_serial_class::write(unsigned char)
+2001b478 g     O .bss	00000004 det
+000084bc g     F .text.itcm	00000070 JackClusteredArrayMax(long*, long, long*, long*, long*, long)
+00025b2c g     F .text.itcm	00000018 AudioConnection::AudioConnection()
+2023e654 g     O .bss.dma	00002000 float_buffer_L2
+00016170 g     F .text.itcm	000000a4 InitLMSNoiseReduction()
+2001b668 g     O .bss	00000008 out_sample
+20011ddc g     O .data	0000000c S7_Xmt
+000045dc g     F .text.itcm	0000084c RA8875::drawGFXFontChar(unsigned int)
+0001bfec  w    F .text.itcm	00000052 SDClass::rmdir(char const*)
+00021d04 g     F .text.itcm	00000068 SharedSpiCard::writeData(unsigned char const*)
+2001b450 g     O .bss	00000021 decodeBuffer
+20002720 g     O .data	000000d8 SR
+0002ec5c g     F .text.itcm	00000164 .hidden __aeabi_fsub
+000210c8  w    F .text.itcm	00000004 SharedSpiCard::errorData() const
+20020258 g     O .bss	00000004 systick_safe_read
+00001584 g     F .text.itcm	00000078 RA8875::setTextColor(unsigned short, unsigned short)
+0002c094 g     F .text.itcm	00000060 log10f
+200131f0 g     O .data	00000002 base_y
+00020704  w    F .text.itcm	00000044 FsBlockDeviceInterface::readSectorsCallback(unsigned long, unsigned char*, unsigned int, void (*)(unsigned long, unsigned char*, void*), void*)
+2001c38c g     O .bss	00000020 rec_EQ_Band12_state
+20202000 g     O .bss.dma	00000400 EQ9_float_buffer_L
+0001aab8 g     F .text.itcm	0000006c SPIClass::setSCK(unsigned char)
+0002114c  w    F .text.itcm	00000006 SharedSpiCard::end()
+200151c8 g     O .bss	00000008 AudioOutputI2S_F32::dma
+000217f0 g     F .text.itcm	0000009c SharedSpiCard::sectorCount()
+20246670 g     O .bss.dma	0000200c Fir_Zoom_FFT_Decimate_I_state
+0002fe3c g     F .text.itcm	0000000c __cxa_atexit
+000266f0 g     F .text.itcm	00000022 String::operator=(char const*)
+0001c64c g     F .text.itcm	00000022 ExFatFile::getModifyDateTime(unsigned short*, unsigned short*)
+20020834 g     O .bss	00000020 xmt_EQ_Band12_state
+00027ab8  w    F .text.itcm	00000004 _read
+00025cc8 g     F .text.itcm	00000034 AudioConnection::~AudioConnection()
+0000d3e8 g     F .text.itcm	00000100 SetTransmitDelay()
+000266c4 g     F .text.itcm	0000002a String::operator=(String&&)
+00021fd4 g     F .text.itcm	00000010 SdioCard::readOCR(unsigned long*)
+20012cf8 g     O .data	00000080 isr_table_gpio2
+60013ae8  w    O .text.progmem	00000050 TwoWire::i2c4_hardware
+20011c88 g     O .data	00000004 N_BLOCKS
+20255864 g     O .bss.dma	00001000 FFT_spec_old
+0002843c g     F .text.itcm	00000058 usb_init_serialnumber
+00000025 g       *ABS*	00000000 _teensy_model_identifier
+20012d78 g     O .data	00000080 isr_table_gpio3
+00033b48 g     F .text.itcm	000000d8 __smakebuf_r
+00008104 g     F .text.itcm	00000014 SetDitLength(int)
+00021e54  w    F .text.itcm	00000002 SdioCard::end()
+00021950 g     F .text.itcm	00000074 DedicatedSpiCard::readSectorsCallback(unsigned long, unsigned char*, unsigned int, void (*)(unsigned long, unsigned char*, void*), void*)
+20012c78 g     O .data	00000080 isr_table_gpio1
+20013c18 g     O .bss	00000004 NCO_INC
+000315c8 g     F .text.itcm	00000012 _Bfree
+00024514 g     F .text.itcm	00000134 Si5351::select_r_div_ms67(unsigned long long*)
+2001b34c g     O .bss	00000010 biquad_lowpass1_state
+00020e88 g     F .text.itcm	000000ae FsBaseFile::open(FsVolume*, char const*, int)
+00030fc0 g     F .text.itcm	00000002 __retarget_lock_close_recursive
+20020158 g     O .bss	00000004 s_hotCount
+200209e4 g     O .bss	00000002 y_old2
+20011cc8 g     O .data	0000000c S12_Xmt
+20012df8 g     O .data	00000080 isr_table_gpio4
+00025b44 g     F .text.itcm	000000d0 AudioConnection::connect()
+20012a10 g     O .data	00000004 centerLine
+0002f2d8 g     F .text.itcm	00000560 _malloc_r
+00027ca0 g     F .text.itcm	0000002c usb_stop_sof_interrupts
+0001e254 g     F .text.itcm	000000aa ExFatPartition::bitmapModify(unsigned long, unsigned long, bool)
+00001940 g     F .text.itcm	0000009c RA8875::_line_addressing(short, short, short, short)
+00033c20 g     F .text.itcm	00000024 strnlen
+0001bba4 g     F .text.itcm	00000042 AudioPlayQueue::update()
+20010b10 g     O .data	00000194 volumeLog
+00026ba0 g     F .text.itcm	00000054 micros
+00027ac4  w    F .text.itcm	0000000a _fstat
+2000393c  w    O .data	0000002c vtable for File
+0002bef0 g     F .text.itcm	00000048 sqrt
+0002d304 g     F .text.itcm	00000006 __ieee754_sqrtf
+0001b964 g     F .text.itcm	0000011c AudioOutputI2SQuad::begin()
+00023eac g     F .text.itcm	00000028 Si5351::Si5351(unsigned char)
+20000e38 g     O .data	00000028 __mprec_bigtens
+200209f6 g     O .bss	00000001 AudioOutputI2SQuad::update_responsibility
+0002c090 g     F .text.itcm	00000004 atan2f
+0002f868 g     F .text.itcm	000003d8 _realloc_r
+2000f984 g     O .data	00001000 twiddleCoef_512
+20020a08 g     O .bss	00000001 external_psram_size
+00024890 g     F .text.itcm	00000094 Si5351::ms_div(si5351_clock, unsigned char, unsigned char)
+0001cff8 g     F .text.itcm	0000005e ExFatFile::rmdir()
+200151c0 g     O .bss	00000008 AudioOutputI2SQuad::dma
+00015888 g     F .text.itcm	000008e8 SpectralNoiseReduction()
+00023934 g     F .text.itcm	00000018 AudioStream_F32::receiveReadOnly_f32(unsigned int)
+000224a0 g     F .text.itcm	000000d4 SdioCard::writeStart(unsigned long)
+20011ca4 g     O .data	0000000c S11_Rec
+20017f58 g     O .bss	00000001 __lock___atexit_recursive_mutex
+00031550 g     F .text.itcm	0000002a __ascii_mbtowc
+00004e28 g     F .text.itcm	0000007a RA8875::Pixel(short, short, unsigned short)
+0000c840 g     F .text.itcm	00000298 DrawBandWidthIndicatorBar()
+2001b424 g     O .bss	00000004 cosBuffer
+60008f84 g     F .text.code	00000000 _init
+0001a688 g     F .text.itcm	000000dc _spi_dma_rxISR1()
+00021fe4  w    F .text.itcm	00000002 SdioCard::~SdioCard()
+2000f184 g     O .data	00000800 twiddleCoef_256
+00022748 g     F .text.itcm	000000fc SdioCard::erase(unsigned long, unsigned long)
+00006d3c g     F .text.itcm	0000002c ProcessButtonPress(int)
+00025168 g     F .text.itcm	000001e8 Si5351::set_ms(si5351_clock, Si5351RegSet, unsigned char, unsigned char, unsigned char)
+20020a03 g     O .bss	00000001 charProcessFlag
+20264120 g     O .bss.dma	000020bc FIR_dec1_EX_I_state
+20002714 g     O .data	00000004 DF
+20010f20 g     O .data	00000078 CW_AudioFilterCoeffs3
+0000ae20 g     F .text.itcm	00000084 ShowSpectrumdBScale()
+0000b820 g     F .text.itcm	000002e4 DrawFrequencyBarValue()
+0002d294 g     F .text.itcm	0000000c .hidden __math_uflowf
+60003890 g     F .text.code	000001d8 UpdateDecoderField()
+20015138 g     O .bss	00000008 AudioInputI2SHex::dma
+60008530 g     F .text.code	00000054 TwoWire::setSDA(unsigned char)
+0002643c  w    F .text.itcm	00000004 usb_serial_class::read()
+20201400 g     O .bss.dma	00000400 EQ6_float_buffer_L
+200131b8 g     O .data	00000016 usb_string_serial_number_default
+0002eb60 g     F .text.itcm	0000001e .hidden __floatunsidf
+20010f98 g     O .data	00000078 CW_AudioFilterCoeffs4
+00030e90 g     F .text.itcm	0000000c __locale_mb_cur_max
+200209de g     O .bss	00000002 y1_new
+0001c734 g     F .text.itcm	0000019e ExFatFile::read(void*, unsigned int)
+20011010 g     O .data	00000078 CW_AudioFilterCoeffs5
+0002ede4 g     F .text.itcm	0000008c .hidden __floatundisf
+0002d440 g     F .text.itcm	000000b0 __kernel_sin
+20015164 g     O .bss	00000004 AudioInputI2SQuad::block_ch2
+200151d0 g     O .bss	00000008 AudioOutputPT8211_2::dma
+20010ea8 g     O .data	00000078 CW_AudioFilterCoeffs2
+0002eba4 g     F .text.itcm	00000042 .hidden __aeabi_f2d
+0002d788 g     F .text.itcm	00000294 __ieee754_rem_pio2
+20020124 g     O .bss	00000004 ring_max
+0001eeb8 g     F .text.itcm	00000044 FatFile::readDirCache(bool)
+0002c440 g     F .text.itcm	0000057c pow
+00005edc  w    F .text.itcm	0000003c SDFile::truncate(unsigned long long)
+0002177c g     F .text.itcm	00000074 SharedSpiCard::readRegister(unsigned char, void*)
+00006538  w    F .text.itcm	00000040 SDFile::~SDFile()
+0001e698 g     F .text.itcm	00000018 ExFatPartition::rootLength()
+0001aeb4 g     F .text.itcm	00000018 AudioControlSGTL5000::lineInLevel(unsigned char, unsigned char)
+200131dc g     O .data	00000014 zoomOptions
+20012b98 g     O .data	00000004 countryIndex
+00007650 g     F .text.itcm	00000094 ButtonMode()
+0001c25c  w    F .text.itcm	0000003c SDClass::totalSize()
+20267400 g     O .bss.dma	00000062 usb_descriptor_buffer
+0002c038 g     F .text.itcm	00000058 asinf
+0001d190 g     F .text.itcm	0000005e ExFatFile::sync()
+200209fd g     O .bss	00000001 agc_action
+20256864 g     O .bss.dma	00001000 FFT_spec
+00025ae4 g     F .text.itcm	00000046 AudioStream::receiveWritable(unsigned int)
+20010cc6 g     O .data	00000002 n_dec2_taps
+00017208 g     F .text.itcm	00000334 ProcessIQData2()
+0002d2b8 g     F .text.itcm	00000024 .hidden __math_divzerof
+0002c3a0 g     F .text.itcm	00000010 .hidden __math_oflow
+00009290 g     F .text.itcm	00000026 NoiseBlanker(float*, float*)
+000304b4 g     F .text.itcm	000000cc __swsetup_r
+200209f2 g     O .bss	00000001 EventResponder::runningFromYield
+0001e8e4 g     F .text.itcm	0000016a FatFile::mkdir(FatFile*, FatLfn_t*)
+00026444 g     F .text.itcm	00000074 Stream::readBytes(char*, unsigned int)
+00021ff8 g     F .text.itcm	0000001c SdioCard::type() const
+00022ff0 g     F .text.itcm	00000030 SdioCard::syncDevice()
+00030ce0 g     F .text.itcm	00000168 strstr
+2001b30c g     O .bss	00000004 aveCorrResultL
+2001c48c g     O .bss	00000020 rec_EQ_Band6_state
+00027ad4  w    F .text.itcm	00000006 _lseek
+2001b338 g     O .bss	00000014 biquad_lowpass1_coeffs
+200203c4 g     O .bss	00000020 volumeAdjust
+2001b5c4 g     O .bss	0000002c int2Float1
+00019864 g     F .text.itcm	0000005a IQPhaseCorrection(float*, float*, float, unsigned long)
+20013bf4 g     O .bss	00000004 IQChoice
+2024f7b0 g     O .bss.dma	0000202c Fir_Zoom_FFT_Decimate_I2_state
+2001c42c g     O .bss	00000020 rec_EQ_Band3_state
+00007590 g     F .text.itcm	00000024 ButtonFilter()
+200207ec g     O .bss	00000004 wold
+20020380 g     O .bss	00000004 tuneEncoder
+0001e384 g     F .text.itcm	00000082 ExFatPartition::dirSeek(DirPos_t*, unsigned long)
+60007cc8 g     F .text.code	000005b8 setup
+20207b00 g     O .bss.dma	00000200 NR_Hk_old
+0001f530 g     F .text.itcm	000001b4 FatFile::write(void const*, unsigned int)
+2001b63c g     O .bss	00000004 newCursorPosition
+20010e30 g     O .data	00000078 CW_AudioFilterCoeffs1
+0001f3e4 g     F .text.itcm	000000d8 FatFile::timestamp(unsigned char, unsigned short, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+60001020 g     O .text.headers	0000000c BootData
+2001b434 g     O .bss	00000004 cwTimer
+2020f664 g     O .bss.dma	0000081c FIR_int2_EX_Q_state
+20020250 g     O .bss	00000004 systick_cycle_count
+000315dc g     F .text.itcm	000000a4 __multadd
+000283c4 g     F .text.itcm	00000030 usb_prepare_transfer
+200118f0 g     O .data	00000050 EQ_Band9Coeffs
+0000f160 g     F .text.itcm	000000a0 FilterBandwidth()
+20019f04 g     O .bss	00001000 audioSpectBuffer
+00006e2c g     F .text.itcm	000002c0 ExecuteButtonPress(int)
+0001f228 g     F .text.itcm	000000e2 FatFile::openCachedEntry(FatFile*, unsigned short, int, unsigned char)
+20006a14 g     O .data	00000370 armBitRevIndexTable256
+00029124 g     F .text.itcm	00000074 arm_power_f32
+2001b438 g     O .bss	00000004 dahLength
+200208f4 g     O .bss	00000020 xmt_EQ_Band4_state
+20013c30 g     O .bss	00000004 NR_iFFT
+000360a8 g       .text.itcm	00000000 _etext
+00030e9c g     F .text.itcm	00000024 _close_r
+20013bcc g     O .bss	0000000c Fir_Zoom_FFT_Decimate_Q1
+00024824 g     F .text.itcm	0000006c Si5351::drive_strength(si5351_clock, si5351_drive)
+20012a00 g     O .data	00000008 buttonInterrupts
+0001a9b4 g     F .text.itcm	00000018 SPIClass::pinIsMISO(unsigned char)
+20014f8c g     O .bss	00000004 TxRxFreqOld
+20013bd8 g     O .bss	0000000c Fir_Zoom_FFT_Decimate_Q2
+20003660  w    O .data	00000010 teensy::inplace_function_detail::empty_vtable<void>
+00006bf8  w    F .text.itcm	00000006 teensy::inplace_function_detail::vtable<void>::vtable<void (*)()>(teensy::inplace_function_detail::wrapper<void (*)()>)::{lambda(void*, void*)#3}::_FUN(void*, void*)
+20011530 g     O .data	00000050 EQ_Band11Coeffs
+00009dc8 g     F .text.itcm	00000148 SetCompressionRatio()
+0001c374 g     F .text.itcm	00000110 SDClass::mediaPresent()
+2001c340 g     O .bss	00000004 pop_ratio
+00000c44 g     F .text.itcm	00000064 RA8875::RA8875(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+200209e0 g     O .bss	00000002 y_new
+00026290 g     F .text.itcm	0000001c Print::printf(char const*, ...)
+2001b530 g     O .bss	00000004 g_tft_width
+0002edc0 g     F .text.itcm	00000024 .hidden __floatunsisf
+20011c98 g     O .data	0000000c S10_Xmt
+2001b608 g     O .bss	00000004 lastState
+2001b674 g     O .bss	00000004 out_target
+0000a7d8 g     F .text.itcm	000000b4 ShowName()
+00020fb0 g     F .text.itcm	000000e4 FsVolume::begin(FsBlockDeviceInterface*, bool, unsigned char)
+00033d18 g     F .text.itcm	00000040 __assert_func
+00008b50 g     F .text.itcm	00000168 SetupMyCompressors(bool, float, float, float, float)
+60008584 g     F .text.code	00000034 TwoWire::configSCLpin(unsigned char)
+0002734c g     F .text.itcm	00000062 ultoa
+000021f8 g     F .text.itcm	00000158 RA8875::BTE_move(short, short, short, short, short, short, unsigned char, unsigned char, bool, unsigned char, bool, bool)
+2001b614 g     O .bss	00000004 maskS
+0002047c g     F .text.itcm	000000b4 FatFormatter::format(FsBlockDeviceInterface*, unsigned char*, Print*)
+200150c4 g     O .bss	00000008 AudioInputTDM2::dma
+20003670 g     O .data	00000070 SPIClass::spiclass_lpspi1_hardware
+2001bb3c g     O .bss	00000004 pixel_per_khz
+000213e8 g     F .text.itcm	00000040 DedicatedSpiCard::setDedicatedSpi(bool)
+200151d8 g     O .bss	00000020 HardwareSerialIMXRT::s_serials_with_serial_events
+2001c40c g     O .bss	00000020 rec_EQ_Band2_state
+0001a02c  w    F .text.itcm	0000000c TwoWire::available()
+00025ef4 g     F .text.itcm	00000020 systick_isr
+20011dac g     O .data	0000000c S5_Xmt
+20011d1c g     O .data	0000000c S1_CW_AudioFilter3
+000247b8 g     F .text.itcm	0000006c Si5351::set_ms_source(si5351_clock, si5351_pll)
+20011d10 g     O .data	0000000c S1_CW_AudioFilter2
+20206f00 g     O .bss.dma	00000200 NR_last_sample_buffer_R
+60008e48 g     F .text.code	000000e8 usb_init
+0000c69c g     F .text.itcm	000000d0 UpdateNoiseField()
+20012a08 g     O .data	00000008 calFreqs
+20011d28 g     O .data	0000000c S1_CW_AudioFilter4
+20020914 g     O .bss	00000020 xmt_EQ_Band5_state
+200209f3 g     O .bss	00000001 AudioStream_F32::f32_memory_used
+0002d2dc g     F .text.itcm	0000001e .hidden __math_invalidf
+2001b5f8 g     O .bss	00000004 inv_out_target
+20011d34 g     O .data	0000000c S1_CW_AudioFilter5
+00018000  w    F .text.itcm	0000009c AudioConvert_F32toI16::update()
+2001b310 g     O .bss	00000004 aveCorrResultR
+2001b61c g     O .bss	00000004 micChoice
+0000c164 g     F .text.itcm	00000120 DisplayIncrementField()
+0002a288 g     F .text.itcm	00000024 arm_fir_init_f32
+60007510 g     F .text.code	0000003c SelectCalFreq()
+60013c0c g     O .text.progmem	00000062 usb_config_descriptor_12
+20013a64 g     O .bss	00000030 CW_AudioFilter4_state
+00018350  w    F .text.itcm	00000148 AudioEffectCompressor_F32::calcGain(audio_block_f32_t*, audio_block_f32_t*)
+00000cc8 g     F .text.itcm	00000060 RA8875::getFontWidth(bool)
+0001d978 g     F .text.itcm	0000002e ExFatFormatter::syncUpcase()
+20011d04 g     O .data	0000000c S1_CW_AudioFilter1
+20000000 g       .data	00000000 _sdata
+00030820 g     F .text.itcm	000000cc strchr
+00022e84 g     F .text.itcm	000000d4 SdioCard::readStart(unsigned long)
+000218f4 g     F .text.itcm	0000005c DedicatedSpiCard::readSectors(unsigned long, unsigned char*, unsigned int)
+0000c7f4 g     F .text.itcm	0000004c DrawInfoWindowFrame()
+20013bf8 g     O .bss	00000018 LMS_Norm_instance
+2002025c g     O .bss	00000004 tau_attack
+20020254 g     O .bss	00000004 systick_millis_count
+00021e48  w    F .text.itcm	00000004 SdCardInterface::hasDedicatedSpi()
+0002b8b8 g     F .text.itcm	000005e4 arm_radix8_butterfly_f32
+20244664 g     O .bss.dma	0000200c Fir_Zoom_FFT_Decimate_Q_state
+aaaabfff g       *ABS*	00000000 _flexram_bank_config
+00026af8 g     F .text.itcm	000000a8 delay
+0000b5d0 g     F .text.itcm	00000074 MyDrawFloat(float, int, int, int, char*)
+60003c68 g     F .text.code	0000001e EEPROMReadSize()
+200122f0 g     O .data	00000004 __atexit_recursive_mutex
+200131f9 g     O .data	00000001 NB_impulse_samples
+20205400 g     O .bss.dma	00000580 LMS_NormCoeff_f32
+0003121c g     F .text.itcm	00000088 __register_exitproc
+00031344 g     F .text.itcm	0000020c _free_r
+20013400 g     O .data	000002c0 _VectorsRam
+0001ab2c g     F .text.itcm	00000048 SPIClass::end()
+202671e0 g     O .bss.dma	00000214 AudioOutputSPDIF3_F32::block_silent
+200209d8 g     O .bss	00000002 spectrum_pos_centre_f
+20013b9c g     O .bss	0000000c FIR_int2_I
+0001a054 g     F .text.itcm	0000002a TwoWire::write(unsigned char)
+20011dd0 g     O .data	0000000c S7_Rec
+00021e50  w    F .text.itcm	00000004 SdCardInterface::setDedicatedSpi(bool)
+200208d4 g     O .bss	00000020 xmt_EQ_Band3_state
+00017f60  w    F .text.itcm	00000004 AudioControlSGTL5000::disable()
+000219c4 g     F .text.itcm	00000068 DedicatedSpiCard::readSector(unsigned long, unsigned char*)
+20013bc0 g     O .bss	0000000c Fir_Zoom_FFT_Decimate_I2
+2001b36c g     O .bss	00000014 coefficient_set
+0002ec60 g     F .text.itcm	00000160 .hidden __addsf3
+20013bb4 g     O .bss	0000000c Fir_Zoom_FFT_Decimate_I1
+20010a8c g     O .data	00000084 usb_descriptor_list
+20013fa8 g     O .bss	00000368 Q_in_L_Ex
+200203ac g     O .bss	00000004 val
+0000a88c g     F .text.itcm	00000594 ShowSpectrum()
+00021d6c g     F .text.itcm	00000098 SharedSpiCard::writeSector(unsigned long, unsigned char const*)
+2001b430 g     O .bss	00000004 cwFreqOffsetTemp
+00023bc8 g     F .text.itcm	000000f0 makeTime(tmElements_t const&)
+0002ec54 g     F .text.itcm	0000016c .hidden __aeabi_frsub
+20013ae8 g     O .bss	0000000c FIR_Hilbert_R
+60008404 g     F .text.code	00000090 initPowerCoefficients()
+00007748 g     F .text.itcm	00000164 ButtonSetNoiseFloor()
+0000c114 g     F .text.itcm	00000050 DisplayAGC()
+20000000 g     O .data	00000280 endpoint_queue_head
+00006a18 g     F .text.itcm	000001b0 WhichOneToUse(char (*) [50], int)
+20003908  w    O .data	0000000c vtable for AudioConvert_I16toF32
+20012c08 g     O .data	00000004 filename
+20010e24 g     O .data	00000004 ANR_ngamma
+0001a0bc g     F .text.itcm	00000108 TwoWire::force_clock()
+20013adc g     O .bss	0000000c FIR_Hilbert_L
+00025924 g     F .text.itcm	00000064 software_isr()
+20012ec0 g     O .data	00000004 m_NumTaps
+20233e50 g     O .bss.dma	00002000 L_BufferOffset
+20013b0c g     O .bss	0000000c FIR_dec1_I
+20014aa8 g     O .bss	00000004 SAM_carrier
+20015190 g     O .bss	00000008 AudioOutputSPDIF2::dma
+20020228 g     O .bss	00000004 signalEnd
+20012ec4 g     O .data	00000004 max_input
+20013b54 g     O .bss	0000000c FIR_int1_EX_I
+0002da1c g     F .text.itcm	00000012 fabs
+20015198 g     O .bss	00000008 AudioOutputSPDIF3::dma
+20012b9c g     O .data	00000004 dbm
+0002e688 g     F .text.itcm	0000010c scalbn
+20020a01 g     O .bss	00000001 calibrateFlag
+0000190c g     F .text.itcm	00000034 RA8875::setActiveWindow()
+20007aec g     O .data	00000004 n_att
+20013b18 g     O .bss	0000000c FIR_dec1_Q
+00028b1c g     F .text.itcm	00000050 usb_serial_write_buffer_free
+0002890c g     F .text.itcm	000000e0 usb_serial_read
+000238a4 g     F .text.itcm	00000048 AudioStream_F32::release(audio_block_f32_t*)
+00021f74 g     F .text.itcm	0000000c SdioCard::errorCode() const
+0001990c g     F .text.itcm	00000044 Izero(float)
+0001ecac g     F .text.itcm	0000003a FatFile::openRoot(FatVolume*)
+20017f90 g     O .bss	00000004 __malloc_max_total_mem
+0002f208  w    F .text.itcm	00000002 .hidden __aeabi_ldiv0
+20015130 g     O .bss	00000008 AudioInputAnalog::dma
+00012c70  w    F .text.itcm	00000174 void ArduinoJson::V704PB2::detail::TextFormatter<ArduinoJson::V704PB2::detail::Writer<usb_serial_class, void> >::writeFloat<double>(double)
+200150bc g     O .bss	00000008 AudioInputPDM2::dma
+20012878 g     O .data	0000000c __sglue
+000199e4 g     F .text.itcm	00000020 ApproxAtan(float)
+200209e2 g     O .bss	00000002 y_old
+00031d10 g     F .text.itcm	000000a4 fcvtbuf
+0002664c g     F .text.itcm	0000000e String::~String()
+00023d7c g     F .text.itcm	00000030 minute()
+200138f0 g     O .bss	00000008 OSC_SIN
+00019c4c g     F .text.itcm	00000124 DisplayClock()
+20020368 g     O .bss	00000004 topGapIndex
+000088bc g     F .text.itcm	00000024 KeyTipOn()
+2001b634 g     O .bss	00000004 mute
+000015fc g     F .text.itcm	00000064 RA8875::setX(short)
+20003c9c g     O .data	00000101 _ctype_
+0000a060 g     F .text.itcm	0000014c SetCompressionRelease()
+000339c4 g     F .text.itcm	00000130 __sflush_r
+20011850 g     O .data	00000050 EQ_Band7Coeffs
+0001fd78 g     F .text.itcm	000000d4 FatFile::parsePathName(char const*, FatLfn_t*, char const**)
+0000043c g     F .text.itcm	00000294 DoCWDecoding(int)
+00022454 g     F .text.itcm	00000020 SdioCard::status()
+20011c84 g     O .data	00000004 NR_KIM_K
+0001f178 g     F .text.itcm	000000ae FatFile::seekSet(unsigned long)
+20011e18 g     O .data	00000004 SAM_lowpass
+0002ef10 g     F .text.itcm	00000000 .hidden __aeabi_uldivmod
+00021fe8  w    F .text.itcm	0000000e SdioCard::~SdioCard()
+20206b00 g     O .bss.dma	00000200 NR_last_iFFT_result
+00009630 g     F .text.itcm	000000cc AGCPrep()
+0000da48 g     F .text.itcm	00000300 ZoomFFTExe(unsigned long)
+60000000 g     O .text.headers	00000200 FlexSPI_NOR_Config
+20013920 g     O .bss	00000008 elapsed_micros_idx_t
+6000881c  w    F .text.code	00000002 startup_middle_hook
+00013368 g     F .text.itcm	00000098 ShowMenu(char const**, int)
+0002019c g     F .text.itcm	0000011c FatFormatter::makeFat16()
+0000818c g     F .text.itcm	00000038 SetKeyType()
+00023e40 g     F .text.itcm	0000001c setSyncProvider(long long (*)())
+60004378 g     F .text.code	00000278 printFile(char const*)
+000243e0 g     F .text.itcm	00000134 Si5351::select_r_div(unsigned long long*)
+200150f8 g     O .bss	00000004 EventResponder::lastInterrupt
+20013740 g     O .bss	00000020 endpoint0_transfer_data
+20244654 g     O .bss.dma	00000010 Fir_Zoom_FFT_Decimate_coeffs
+0002ffc8 g     F .text.itcm	0000000c __sfp_lock_release
+00018208  w    F .text.itcm	00000148 AudioEffectCompressor_F32::AudioEffectCompressor_F32()
+0002e8dc g     F .text.itcm	00000000 .hidden __aeabi_drsub
+60007a90 g     F .text.code	00000238 Splash()
+00029dd0 g     F .text.itcm	0000003a arm_lms_norm_init_f32
+2001b328 g     O .bss	00000004 bin_BW
+000107a0  w    F .text.itcm	000000ea ArduinoJson::V704PB2::detail::enable_if<(!ArduinoJson::V704PB2::detail::IsVariant<int>::value)&&(!ArduinoJson::V704PB2::detail::is_array<int>::value), int>::type ArduinoJson::V704PB2::detail::operator|<int>(ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> const&, int const&)
+20020a1b g     O .bss	00000001 yield_active_check_flags
+0000f2b0 g     F .text.itcm	000001e4 FreqShift2()
+2000380c g     O .data	0000000c vtable for AudioPlayQueue
+2000271c g     O .data	00000004 N_B_EX
+20258864 g     O .bss.dma	00001000 buffer_spec_FFT
+60008cbc g     F .text.code	0000005c usb_pll_start
+200131f4 g     O .data	00000002 pos_y_time
+00024758 g     F .text.itcm	00000060 Si5351::output_enable(si5351_clock, unsigned char)
+20020954 g     O .bss	00000020 xmt_EQ_Band7_state
+0001be00 g     F .text.itcm	00000048 AudioRecordQueue::clear()
+200139c0 g     O .bss	00000004 ANR_buff_size
+00026d38 g     F .text.itcm	00000048 eeprom_initialize
+00010364  w    F .text.itcm	000000fa ArduinoJson::V704PB2::detail::enable_if<!ArduinoJson::V704PB2::detail::ConverterNeedsWriteableRef<bool>::value, bool>::type ArduinoJson::V704PB2::detail::VariantRefBase<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> >::as<bool>() const
+0002f28c g     F .text.itcm	0000002c itoa
+20020a05 g     O .bss	00000001 decay_type
+00017ae8 g     F .text.itcm	00000234 DoReceiveCalibrate()
+000060c0  w    F .text.itcm	00000060 File::available()
+0001bf24  w    F .text.itcm	000000c8 SDClass::open(char const*, unsigned char)
+0001eefc g     F .text.itcm	000001ea FatFile::rename(FatFile*, char const*)
+0002ff80 g     F .text.itcm	0000003c __sinit
+0001c900 g     F .text.itcm	000000ea ExFatFile::seekSet(unsigned long long)
+20000e60 g     O .data	000000c8 __mprec_tens
+20013b60 g     O .bss	0000000c FIR_int1_EX_Q
+0001ce8c g     F .text.itcm	00000024 ExFatFile::openNext(ExFatFile*, int)
+20020224 g     O .bss	00000004 signalElapsedTime
+00005e34  w    F .text.itcm	0000001c RA8875::write(unsigned char const*, unsigned int)
+2001b484 g     O .bss	00000004 ditLength
+000021cc g     F .text.itcm	0000002c RA8875::drawFastHLine(short, short, short, unsigned short)
+0003039c g     F .text.itcm	0000004a _vdprintf_r
+2001c50c g     O .bss	00000004 release_sec
+0000b0bc g     F .text.itcm	00000094 ShowCurrentPowerSetting()
+0001a1c4 g     F .text.itcm	00000040 TwoWire::wait_idle()
+00000b34  w    F .text.itcm	00000110 SPIClass::beginTransaction(SPISettings)
+20012c20 g     O .data	00000034 functionPtr
+20012468 g     O .data	00000408 __malloc_av_
+0002771c g     F .text.itcm	0000007a flexpwm_init
+60013c08 g     O .text.progmem	00000004 string0
+000070ec g     F .text.itcm	00000044 NoActiveMenu()
+0002d2fc g     F .text.itcm	00000006 __ieee754_sqrt
+0000559c g     F .text.itcm	00000576 RA8875::charBounds(char, short*, short*, short*, short*, short*, short*)
+00022574 g     F .text.itcm	000000b8 SdioCard::readStop()
+20002098 g     O .data	000000e0 .hidden __sincosf_table
+0002f208  w    F .text.itcm	00000002 .hidden __aeabi_idiv0
+2020aab4 g     O .bss.dma	0000045c FIR_int1_Q_state
+2001b4cc g     O .bss	00000004 fil_out
+00035d7c g     F .text.itcm	000000aa __fputwc
+00010174  w    F .text.itcm	000000a0 File::dec_refcount()
+00004ef0 g     F .text.itcm	000006ac RA8875::drawFontChar(unsigned int)
+000061b8  w    F .text.itcm	0000001a SDFile::size()
+0002b5e0 g     F .text.itcm	0000006c arm_negate_f32
+200131fc g     O .data	00000001 SampleRate
+200150a4 g     O .bss	00000008 AudioInputPDM::dma
+0001aecc g     F .text.itcm	0000006c AudioControlSGTL5000::volumeInteger(unsigned int)
+60008938 g     F .text.code	00000384 configure_external_ram
+20017f94 g     O .bss	00000004 __malloc_top_pad
+20020270 g     O .bss	00000004 tau_hang_decay
+000309bc g     F .text.itcm	00000064 strncpy
+2001c344 g     O .bss	00000004 pos_left
+00001d3c g     F .text.itcm	00000120 RA8875::useLayers(bool)
+000011e0 g     F .text.itcm	0000004e RA8875::_setSysClock(unsigned char, unsigned char, unsigned char)
+20020274 g     O .bss	000000f0 tft
+000155f8 g     F .text.itcm	0000028c Xanr()
+00012554  w    F .text.itcm	00000174 void ArduinoJson::V704PB2::detail::TextFormatter<ArduinoJson::V704PB2::detail::Writer<File, void> >::writeFloat<double>(double)
+2001b43c g     O .bss	00000004 dc
+200150b4 g     O .bss	00000008 AudioInputI2S2::dma
+00010890  w    F .text.itcm	00000238 ArduinoJson::V704PB2::detail::enable_if<!ArduinoJson::V704PB2::detail::ConverterNeedsWriteableRef<int>::value, int>::type ArduinoJson::V704PB2::detail::VariantRefBase<ArduinoJson::V704PB2::detail::ElementProxy<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> > >::as<int>() const
+200131fb g     O .data	00000001 NR_first_time
+200180d0 g     O .bss	00000004 __stdio_exit_handler
+20013720 g     O .bss	00000020 endpoint0_transfer_ack
+0001f30c g     F .text.itcm	000000ca FatFile::openNext(FatFile*, int)
+2001c36c g     O .bss	00000020 rec_EQ_Band11_state
+00013ee4 g     F .text.itcm	00000040 AGCOptions()
+0001b838 g     F .text.itcm	0000012c AudioOutputI2SQuad::update()
+20200400 g     O .bss.dma	00000400 EQ2_float_buffer_L
+0001e810 g     F .text.itcm	0000001e FatFile::cacheDirEntry(unsigned char)
+000284a4  w    F .text.itcm	00000008 usb_serial_class::write(unsigned char const*, unsigned int)
+200207f0 g     O .bss	00000004 x2
+20259c64 g     O .bss.dma	00000400 cwRiseBuffer
+200002d0  w    O .data	00000048 ArduinoJson::V704PB2::detail::FloatTraits<double, 8u>::negativeBinaryPowersOfTen()::factors
+2001b578 g     O .bss	00000004 homeLon
+200209c4 g     O .bss	00000002 AudioStream::memory_pool_first_mask
+0001ff5c  w    F .text.itcm	0000003a FsBlockDeviceInterface::writeSectorsCallback(unsigned long, unsigned int, unsigned char const* (*)(unsigned long, void*), void*)
+20009184 g     O .data	00002000 twiddleCoef_1024
+20020a15 g     O .bss	00000001 usb_cdc_line_rtsdtr
+00030fbc g     F .text.itcm	00000002 __retarget_lock_init_recursive
+20013bf0 g     O .bss	00000004 IQCalType
+00026610 g     F .text.itcm	0000003a String::String(char const*)
+0000bdb4 g     F .text.itcm	000001ac DisplaydbM()
+00006094  w    F .text.itcm	0000002c File::peek()
+00026d80 g     F .text.itcm	0000007c eeprom_read_byte
+0001b3c4 g     F .text.itcm	00000000 memcpy_tointerleaveLR
+60008d18 g     F .text.code	00000130 tempmon_init
+20203000 g     O .bss.dma	00000400 EQ13_float_buffer_L
+20011188 g     O .data	00000358 EEPROMData
+200209e6 g     O .bss	00000001 ANR_notch
+0001a534  w    F .text.itcm	00000016 EventResponder::triggerEvent(int, void*)
+2001b68c g     O .bss	00000014 patchCord10
+00028fb4 g     F .text.itcm	0000005e arm_copy_f32
+000278f8 g     F .text.itcm	0000018c unused_interrupt_vector
+0001c16c  w    F .text.itcm	000000f0 SDClass::usedSize()
+20019efc g     O .bss	00000004 audio
+0002788c g     F .text.itcm	00000024 rtc_get
+200036e0 g     O .data	00000070 SPIClass::spiclass_lpspi3_hardware
+20013ba8 g     O .bss	0000000c FIR_int2_Q
+20013204 g     O .data	00000001 zoom_display
+200131f6 g     O .data	00000002 spectrum_x
+20017f64 g     O .bss	00000028 __malloc_current_mallinfo
+200122ec  w    O .data	00000004 ArduinoJson::V704PB2::detail::DefaultAllocator::instance()::allocator
+600075b4 g     F .text.code	000004dc InitializeDataArrays()
+00005e50  w    F .text.itcm	00000012 SDFile::isOpen()
+20013200 g     O .data	00000001 currentDashJump
+00021510 g     F .text.itcm	000001f4 SharedSpiCard::begin(SdSpiConfig)
+0001ab98 g     F .text.itcm	0000000c AudioControlSGTL5000::setAddress(unsigned char)
+2001b6b4 g     O .bss	00000014 patchCord16
+20017f98 g     O .bss	00000138 __sf
+200209ea g     O .bss	00000001 NR_use_X
+0000c004 g     F .text.itcm	00000110 UpdateAGCField()
+000262ac g     F .text.itcm	00000028 Print::printNumber(unsigned long, unsigned char, unsigned char)
+0001f8c4 g     F .text.itcm	00000168 FatFile::makeSFN(FatLfn_t*)
+2001b5c0 g     O .bss	00000004 in_index
+0001ec50 g     F .text.itcm	0000005a FatFile::openCluster(FatFile*)
+0002b6d8 g     F .text.itcm	00000094 arm_dot_prod_f32
+2000398c  w    O .data	00000018 vtable for RA8875
+200150ac g     O .bss	00000008 AudioInputTDM::dma
+000064a8  w    F .text.itcm	0000004c StreamFile<FsBaseFile, unsigned long long>::available()
+20017dc8 g     O .bss	00000190 __atexit0
+00028a30 g     F .text.itcm	00000018 usb_serial_available
+000071ec g     F .text.itcm	00000014 ButtonMenuDecrease()
+60001ac8 g     F .text.code	000000d0 DrawActiveLetter(int, int, int, int, int)
+00013f24 g     F .text.itcm	00000064 EqualizerRecOptions()
+000360ac g       .ARM.exidx	00000000 __exidx_end
+20013ad0 g     O .bss	0000000c FIR_CW_DecodeR
+20020394 g     O .bss	00000004 usb_timer0_callback
+60003050 g     F .text.code	0000052c CreateMapList(char (*) [50], int*)
+0000c3c0 g     F .text.itcm	000000c0 UpdateZoomField()
+00025f20  w    F .text.itcm	00000002 teensy::inplace_function_detail::vtable<void>::vtable()::{lambda(void*)#4}::_FUN(void*)
+00025a84 g     F .text.itcm	00000046 AudioStream::transmit(audio_block_struct*, unsigned char)
+20203400 g     O .bss.dma	00000400 EQ14_float_buffer_L
+2020b7ac g     O .bss.dma	0000081c FIR_int2_Q_state
+00026714 g     F .text.itcm	00000036 String::getBytes(unsigned char*, unsigned int, unsigned int) const
+000075b4 g     F .text.itcm	0000009c ButtonDemodMode()
+0001bde8 g     F .text.itcm	00000016 AudioRecordQueue::available()
+000240e8 g     F .text.itcm	00000208 Si5351::multisynth_calc(unsigned long long, unsigned long long, Si5351RegSet*)
+2024867c g     O .bss.dma	00001000 FIR_filter_mask
+20013bec g     O .bss	00000004 IFFreq
+2001b6a0 g     O .bss	00000014 patchCord15
+0002e8a8 g     F .text.itcm	0000000a __aeabi_atexit
+00005f6c  w    F .text.itcm	00000046 SDFile::rewindDirectory()
+2024d784 g     O .bss.dma	0000202c Fir_Zoom_FFT_Decimate_Q2_state
+00021e4c  w    F .text.itcm	00000004 SdCardInterface::isDedicatedSpi()
+200203b4 g     O .bss	00000004 valRef1
+2001b4dc g     O .bss	00000004 filterWidthX
+200004a8 g     O .data	00000870 .hidden __exp_data
+200203b8 g     O .bss	00000004 valRef2
+20020854 g     O .bss	00000020 xmt_EQ_Band13_state
+00017100 g     F .text.itcm	00000108 CalibratePrologue()
+20014310 g     O .bss	00000368 Q_in_R
+00023718 g     F .text.itcm	00000060 allocate_f32_memory(int)
+0001ee90 g     F .text.itcm	00000028 FatFile::peek()
+200209d2 g     O .bss	00000002 dma_channel_allocated_mask
+2002022c g     O .bss	00000004 signalHistogram
+0001d344 g     F .text.itcm	0000005e ExFatFile::mkdir(ExFatFile*, ExName_t*)
+20011088 g     O .data	00000100 CW_Filter_Coeffs2
+20011760 g     O .data	00000050 EQ_Band4Coeffs
+000198c0 g     F .text.itcm	0000004c MSinc(int, float)
+20020a06 g     O .bss	00000001 decodeStates
+000258dc g     F .text.itcm	0000003c Rotary::process()
+2026a480 g       .bss.dma	00000000 _heap_start
+00006538  w    F .text.itcm	00000040 SDFile::~SDFile()
+200207f4 g     O .bss	00000020 xmt_EQ_Band10_state
+000302c8 g     F .text.itcm	00000046 _fwalk_sglue
+00020140 g     F .text.itcm	0000005c FatFormatter::writeMbr()
+0001ec40 g     F .text.itcm	0000000e FatFile::open(FatVolume*, char const*, int)
+20011d94 g     O .data	0000000c S4_Xmt
+60013bd8  w    O .text.progmem	00000016 usb_string_product_name
+20015150 g     O .bss	00000008 AudioOutputSPDIF::dma
+00021148  w    F .text.itcm	00000002 DedicatedSpiCard::~DedicatedSpiCard()
+20013c3c g     O .bss	00000004 NR_sum
+0000aef4 g     F .text.itcm	000001c8 ShowAnalogGain()
+00028498  w    F .text.itcm	00000004 usb_serial_class::available()
+20013ac4 g     O .bss	0000000c FIR_CW_DecodeL
+2001b6c8 g     O .bss	00000014 patchCord17
+20011de8 g     O .data	0000000c S8_Rec
+20014aac g     O .bss	00000004 SAM_carrier_freq_offset
+2001b6dc g     O .bss	00000014 patchCord18
+0002e798 g     F .text.itcm	00000110 floor
+00031c20 g     F .text.itcm	000000d4 __d2b
+0000df20 g     F .text.itcm	00000340 CalcFIRCoeffs(float*, int, float, float, int, float, float)
+00028f78 g     F .text.itcm	0000003c arm_fill_f32
+20015168 g     O .bss	00000004 AudioInputI2SQuad::block_ch3
+0000619c  w    F .text.itcm	0000001a SDFile::position()
+0000377c g     F .text.itcm	000000f4 RA8875::writeRect(short, short, short, short, unsigned short const*)
+00029014 g     F .text.itcm	00000110 arm_var_f32
+00023224 g     F .text.itcm	00000006 sdCsInit(unsigned char)
+00023d4c g     F .text.itcm	00000030 hour()
+0001f6e4 g     F .text.itcm	000000bc FatFile::cmpName(unsigned short, FatLfn_t*, unsigned char)
+20020390 g     O .bss	00000004 usb_cdc_line_rtsdtr_millis
+00013e14 g     F .text.itcm	00000094 CWOptions()
+00006bec  w    F .text.itcm	00000004 teensy::inplace_function_detail::vtable<void>::vtable<void (*)()>(teensy::inplace_function_detail::wrapper<void (*)()>)::{lambda(void*)#1}::_FUN(void*)
+00003870 g     F .text.itcm	000004c8 RA8875::_textWrite(char const*, unsigned short)
+00018498  w    F .text.itcm	000001a8 AudioEffectCompressor_F32::update()
+0000cb20 g     F .text.itcm	00000024 EraseMenus()
+0001d9a8 g     F .text.itcm	00000040 ExFatFormatter::writeUpcaseByte(unsigned char)
+00021f80 g     F .text.itcm	0000000c SdioCard::errorData() const
+00001e98 g     F .text.itcm	000000ce RA8875::writeTo(RA8875writes)
+0000f498  w    F .text.itcm	00000006 ArduinoJson::V704PB2::detail::DefaultAllocator::allocate(unsigned int)
+00006650  w    F .text.itcm	000000a8 File::~File()
+0002c138 g     F .text.itcm	0000000e fabsf
+00008cb8 g     F .text.itcm	000005d8 AltNoiseBlanking(float*, int, float*)
+0002b508 g     F .text.itcm	0000006c arm_scale_f32
+20019f00 g     O .bss	00000004 audioMaxSquaredAve
+20204000 g     O .bss.dma	00000800 ANR_w
+20011c68 g     O .data	00000004 F_CPU_ACTUAL
+000063ac  w    F .text.itcm	00000014 StreamFile<FsBaseFile, unsigned long long>::write(unsigned char const*, unsigned int)
+0000d824 g     F .text.itcm	00000040 SetBandRelay(int)
+200138f8 g     O .bss	00000008 Osc_Gain
+2001b32c g     O .bss	0000000c biquad_lowpass1
+60013bf0 g     O .text.progmem	00000018 usb_string_manufacturer_name_default
+200122f8 g     O .data	00000000 .hidden __dso_handle
+00031720 g     F .text.itcm	0000005c __i2b
+00027abc  w    F .text.itcm	00000006 _close
+20011cbc g     O .data	0000000c S12_Rec
+20013c14 g     O .bss	00000004 NCOFreq
+000238ec g     F .text.itcm	00000046 AudioStream_F32::transmit(audio_block_f32_t*, unsigned char)
+20013c40 g     O .bss	00000368 Q_in_L
+2001b538 g     O .bss	00000004 gapChar
+0002ffbc g     F .text.itcm	0000000c __sfp_lock_acquire
+0001b53c g     F .text.itcm	000000dc AudioOutputI2S::config_i2s(bool)
+2001b53c g     O .bss	00000004 gapHistogram
+20203800 g     O .bss.dma	00000800 ANR_d
+200203b0 g     O .bss	00000004 valFlag
+20012f08 g     O .data	00000258 myMapFiles
+0001ae38 g     F .text.itcm	0000007c AudioControlSGTL5000::micGain(unsigned int)
+20011cf8 g     O .data	0000000c S14_Xmt
+00019e14 g     F .text.itcm	000001b8 SDPresentCheck()
+000081c4 g     F .text.itcm	000001c8 SetSideToneVolume()
+00020700 g     F .text.itcm	00000004 FatFile::getName(char*, unsigned int)
+2022fa50 g     O .bss.dma	00002000 R_BufferOffset
+00006120  w    F .text.itcm	00000028 File::flush()
+00027798 g     F .text.itcm	000000f4 pwm_init
+2001c3ec g     O .bss	00000020 rec_EQ_Band1_state
+0002fda0 g     F .text.itcm	0000009c __utoa
+0002d2a0 g     F .text.itcm	0000000c .hidden __math_may_uflowf
+00017d20 g     F .text.itcm	0000023c DoXmitCalibrate(int)
+20012870 g     O .data	00000004 __malloc_sbrk_base
+20013c34 g     O .bss	00000004 NR_onemalpha
+0000cb68 g     F .text.itcm	000000a4 ShowTransmitReceiveStatus()
+00023e74 g     F .text.itcm	00000038 Metro::check()
+00030334 g     F .text.itcm	0000003e __swrite
+000030e0 g     F .text.itcm	00000052 RA8875::fillRect(short, short, short, short, unsigned short)
+00009f10 g     F .text.itcm	0000014c SetCompressionAttack()
+2001b52c g     O .bss	00000004 g_tft_height
+0002ee70 g     F .text.itcm	00000000 .hidden __aeabi_ldivmod
+60008f30 g     F .text.code	00000054 _reboot_Teensyduino_
+2001b47c g     O .bss	00000004 directFreqFlag
+2020e590 g     O .bss.dma	0000045c FIR_int1_EX_I_state
+200038c8 g     O .data	0000000c vtable for AudioInputI2SQuad
+000338fc g     F .text.itcm	000000c6 _fclose_r
+2001b628 g     O .bss	0000000c ms_500
+600085b8 g     F .text.code	00000058 TwoWire::setSCL(unsigned char)
+00006cbc g     F .text.itcm	00000080 EnableButtonInterrupts()
+00034bf8 g     F .text.itcm	00000100 __ssprint_r
+200150dc g     O .bss	00000010 AudioOutputPWM::dma
+00001fec g     F .text.itcm	000000d0 RA8875::drawLine(short, short, short, short, unsigned short)
+0000f4a8  w    F .text.itcm	00000008 ArduinoJson::V704PB2::detail::DefaultAllocator::reallocate(void*, unsigned int)
+0001be48 g     F .text.itcm	0000003a AudioRecordQueue::readBuffer()
+20020398 g     O .bss	00000004 usb_timer1_callback
+0001a9e8 g     F .text.itcm	0000006c SPIClass::setMOSI(unsigned char)
+0001b4bc g     F .text.itcm	0000007e AudioAmplifier::update()
+0001c5d8 g     F .text.itcm	0000003c ExFatFile::dirCache(unsigned char, unsigned char)
+2001b474 g     O .bss	00000004 del_out
+2001b304 g     O .bss	00000004 audiotmp
+00020ddc g     F .text.itcm	00000084 FsBaseFile::FsBaseFile(FsBaseFile const&)
+000141ac g     F .text.itcm	000000bc RFOptions()
+20015088 g     O .bss	00000004 ExFatVolume::m_cwv
+0003157c g     F .text.itcm	0000004c _Balloc
+2001c34c g     O .bss	00000020 rec_EQ_Band10_state
+600095b8 g     O .text.progmem	00000026 letters
+2001b524 g     O .bss	00000004 g_image_offset_x
+00023020 g     F .text.itcm	00000110 SdioCard::readSector(unsigned long, unsigned char*)
+00021164 g     F .text.itcm	00000064 DedicatedSpiCard::writeSectors(unsigned long, unsigned char const*, unsigned int)
+20207300 g     O .bss.dma	00000200 NR_lambda
+20015118 g     O .bss	00000018 AudioStream_F32::f32_memory_pool_available_mask
+20015200 g     O .bss	00000008 AsyncAudioInputSPDIF3::dma
+20012ba0 g     O .data	00000004 dbm_calibration
+20012890 g     O .data	00000150 bands
+2001288c g     O .data	00000004 aveDitLength
+2001b528 g     O .bss	00000004 g_image_offset_y
+600094c8 g       .text.code	00000000 __preinit_array_start
+20020a19 g     O .bss	00000001 volumeChangeFlag
+0002ec5c g     F .text.itcm	00000164 .hidden __subsf3
+0001af60 g     F .text.itcm	0000003c AudioControlSGTL5000::lineOutLevel(unsigned char)
+00021f8c g     F .text.itcm	00000024 SdioCard::readCID(CID*)
+20017f8c g     O .bss	00000004 __malloc_max_sbrked_mem
+000278b0 g     F .text.itcm	00000048 rtc_set
+00021fb0 g     F .text.itcm	00000024 SdioCard::readCSD(csd_t*)
+2001b548 g     O .bss	00000004 getTimePtr
+000202b8 g     F .text.itcm	000001c4 FatFormatter::makeFat32()
+20015218 g     O .bss	00000004 FsVolume::m_cwv
+0002c0f4 g     F .text.itcm	00000044 sqrtf
+20013910 g     O .bss	00000008 Osc_Vect_I
+20019ef4 g     O .bss	00000004 attack_sec
+00029968 g     F .text.itcm	000000ee arm_cfft_f32
+00008428 g     F .text.itcm	00000094 ResetHistograms()
+00027adc  w    F .text.itcm	00000004 __cxa_pure_virtual
+0002dc3c g     F .text.itcm	0000014c __ieee754_atan2f
+2001b534 g     O .bss	00000004 gapAtom
+0000cafc g     F .text.itcm	00000024 EraseSpectrumWindow()
+600022dc g     F .text.code	00000c7c bmpDraw(char const*, int, int)
+0001a510 g     F .text.itcm	0000000c lpi2c1_isr()
+00023438 g     F .text.itcm	0000004c FsName::get16()
+00003534 g     F .text.itcm	000000c6 RA8875::clippedFillRect(short, short, short, short, unsigned short)
+20003824 g     O .data	0000000c vtable for AudioRecordQueue
+20260064 g     O .bss.dma	00002000 float_buffer_L_EX
+200079f0 g     O .data	000000ea gradient
+0001e05c g     F .text.itcm	000000cc ExFatFile::getName8(char*, unsigned int)
+0000297c g     F .text.itcm	00000434 RA8875::begin(RA8875sizes, unsigned char, unsigned long, unsigned long)
+6005d800 g     O .text.csf	00000c00 hab_csf
+0001a304 g     F .text.itcm	00000160 TwoWire::requestFrom(unsigned char, unsigned char, unsigned char)
+0000d62c g     F .text.itcm	000001f8 ExciterIQData()
+60008678 g     F .text.code	00000054 set_audioClock(int, long, unsigned long, bool)
+0001ab74  w    F .text.itcm	0000000c DMAChannel::~DMAChannel()
+0002c9bc g     F .text.itcm	0000000c nanf
+20011f0c g     O .data	00000010 Serial
+0000b648 g     F .text.itcm	000001d4 ShowBandwidth()
+2025e064 g     O .bss.dma	00002000 float_buffer_R_EX
+0001a038  w    F .text.itcm	00000018 TwoWire::peek()
+00030374 g     F .text.itcm	00000020 __sseek
+200131d4 g     O .data	00000004 xmtEqScaleFactor
+0002bfb8 g     F .text.itcm	00000080 sin
+20019eec g     O .bss	00000004 attack_buffsize
+00034bd0 g     F .text.itcm	00000028 fiprintf
+60013b38  w    O .text.progmem	00000050 TwoWire::i2c3_hardware
+200136c0 g       .bss	00000000 _sbss
+20011940 g     O .data	00000004 FFT_length
+2025c064 g     O .bss.dma	00002000 float_buffer_LTemp
+00026274  w    F .text.itcm	0000001c _write
+600095e0 g     O .text.progmem	00000028 spacing
+00020cb8 g     F .text.itcm	00000124 FatPartition::init(FsBlockDeviceInterface*, unsigned char)
+00025ef0 g     F .text.itcm	00000004 pendablesrvreq_isr
+0001ffc8 g     F .text.itcm	00000120 FatFormatter::initFatDir(unsigned char, unsigned long)
+20015210 g     O .bss	00000008 AsyncAudioInputSPDIF3_F32::dma
+20011d4c g     O .data	0000000c S1_Xmt
+60003864 g     F .text.code	0000002c SetKeyPowerUp()
+0000ef14 g     F .text.itcm	00000074 InitFilterMask()
+00001ce8 g     F .text.itcm	00000052 RA8875::setFontScale(unsigned char)
+200151ac g     O .bss	00000004 AudioOutputI2SQuad::block_ch2_2nd
+0002077c g     F .text.itcm	00000032 FatPartition::freeClusterCount_cb_fat32(unsigned long, unsigned char*, void*)
+0001bea0 g     F .text.itcm	00000084 SDClass::dateTime(unsigned short*, unsigned short*)
+00008118 g     F .text.itcm	00000074 SetTransmitDitLength(int)
+0001c040  w    F .text.itcm	00000064 SDClass::rename(char const*, char const*)
+000233bc g     F .text.itcm	0000004e FsCache::prepare(unsigned long, unsigned char)
+20017dc4 g     O .bss	00000004 __atexit
+2001b55c g     O .bss	00000004 hang_decay_mult
+600086cc g     F .text.code	000000f8 AudioStream::initialize_memory(audio_block_struct*, unsigned int)
+0002326c g     F .text.itcm	0000004e SdSpiArduinoDriver::deactivate()
+00024a70 g     F .text.itcm	00000600 Si5351::reset()
+6000208c g     F .text.code	000000c0 HaversineDistance(float, float)
+20012e78 g     O .data	00000048 labels
+00011250  w    F .text.itcm	000001cc ArduinoJson::V704PB2::detail::FloatParts<double>::FloatParts(double)
+60013bf0  w    O .text.progmem	00000018 usb_string_manufacturer_name
+0001f0e8 g     F .text.itcm	00000090 FatFile::rmdir()
+20010cd8 g     O .data	00000008 Osc_Vect_Q
+000115c8  w    F .text.itcm	0000038c ArduinoJson::V704PB2::detail::JsonDeserializer<ArduinoJson::V704PB2::detail::Reader<File, void> >::parseQuotedString()
+2001b700 g     O .bss	00000010 patchCord5
+20013c10 g     O .bss	00000004 LMS_nr_strength
+20011d70 g     O .data	0000000c S3_Rec
+00004ea4 g     F .text.itcm	0000004a RA8875::fetchbits_unsigned(unsigned char const*, unsigned long, unsigned long)
+0002ffd4 g     F .text.itcm	000002f4 __sfvwrite_r
+00027ae4 g     F .text.itcm	00000004 Panic_Temp_isr
+000181a8  w    F .text.itcm	00000060 AudioStream_F32::AudioStream_F32(unsigned char, audio_block_f32_t**)
+2001b5bc g     O .bss	00000004 iS
+2001509c g     O .bss	00000008 AudioInputI2S::dma
+00012abc  w    F .text.itcm	000001b4 ArduinoJson::V704PB2::detail::PrettyJsonSerializer<ArduinoJson::V704PB2::detail::Writer<File, void> >::visit(ArduinoJson::V704PB2::detail::ObjectData const&)
+20010e14 g     O .data	00000004 ANR_lidx
+000035fc g     F .text.itcm	00000180 RA8875::drawPixels(unsigned short*, unsigned short, short, short)
+0002c3b0 g     F .text.itcm	00000030 .hidden __math_divzero
+2001b494 g     O .bss	00000004 encoderStepOld
+2024d754 g     O .bss.dma	00000030 Fir_Zoom_FFT_Decimate2_coeffs
+60008610 g     F .text.code	00000068 TwoWire::begin()
+0001c698 g     F .text.itcm	0000009c ExFatFile::parsePathName(char const*, ExName_t*, char const**)
+2001b314 g     O .bss	00000004 bearingDegrees
+00023dac g     F .text.itcm	00000030 second()
+000017d8 g     F .text.itcm	00000134 RA8875::_updateActiveWindow(bool)
+20007104 g     O .data	00000010 arm_cfft_sR_f32_len1024
+200139d0 g     O .bss	00000004 CWLevelTimerOld
+2001b710 g     O .bss	00000014 patchCord7
+20010e10 g     O .data	00000004 ANR_ldecr
+00026258 g     F .text.itcm	0000001c Print::println()
+00022014 g     F .text.itcm	00000068 SdioCard::sectorCount()
+00020f38 g     F .text.itcm	00000072 FsBaseFile::openNext(FsBaseFile*, int)
+2001b724 g     O .bss	00000014 patchCord9
+00026610 g     F .text.itcm	0000003a String::String(char const*)
+00020530 g     F .text.itcm	0000002a FatFile::getLfnChar(DirLfn_t*, unsigned char)
+200117b0 g     O .data	00000050 EQ_Band5Coeffs
+000019dc g     F .text.itcm	00000044 RA8875::setTextColor(unsigned short)
+0001cf44 g     F .text.itcm	000000b4 ExFatFile::remove()
+00001444 g     F .text.itcm	00000060 RA8875::setFontScale(unsigned char, unsigned char)
+00002f44 g     F .text.itcm	00000148 RA8875::_rect_helper(short, short, short, short, unsigned short, bool)
+00002438 g     F .text.itcm	000001cc RA8875::setFont(RA8875fontSource)
+00007384 g     F .text.itcm	000001a0 ButtonBandDecrease()
+0001e764 g     F .text.itcm	00000034 FatFile::addCluster()
+00001e5c g     F .text.itcm	0000003c RA8875::layerEffect(RA8875boolean)
+00023420 g     F .text.itcm	00000018 FsDateTime::setCallback(void (*)(unsigned short*, unsigned short*))
+0001be9c  w    F .text.itcm	00000002 SDClass::~SDClass()
+00028cd8 g     F .text.itcm	0000004c sm_align_pool
+20020164 g     O .bss	00000004 s_hotTemp
+2001c46c g     O .bss	00000020 rec_EQ_Band5_state
+0002b862 g     F .text.itcm	00000000 arm_bitreversal_16
+20020a14 g     O .bss	00000001 updateDisplayFlag
+0001389c g     F .text.itcm	0000011c DoPaddleFlip()
+000210d0  w    F .text.itcm	00000004 DedicatedSpiCard::hasDedicatedSpi()
+60003ca0 g     F .text.code	000000f8 SetFavoriteFrequency()
+00034d70 g     F .text.itcm	00000f8c _vfiprintf_r
+00003134 g     F .text.itcm	00000090 RA8875::_charLineRender(bool*, int, short, short, short, unsigned short)
+2001b6f0 g     O .bss	00000010 patchCord3
+00028b6c g     F .text.itcm	00000094 usb_serial_flush_output
+20208300 g     O .bss.dma	00000400 NR_Nest
+20208700 g     O .bss.dma	00000400 NR_Gts
+2001c51c g     O .bss	00003c08 ring
+00021c24  w    F .text.itcm	00000076 SharedSpiCard::readCID(CID*)
+20010e20 g     O .data	00000004 ANR_lincr
+2001b610 g     O .bss	00000004 mainMenuIndex
+00023994 g     F .text.itcm	0000002c AudioConnection_F32::connect()
+600019dc g     F .text.code	000000ec DrawNormalLetter(int, int, int, int, int)
+000303e8 g     F .text.itcm	0000001c vdprintf
+0001d47c g     F .text.itcm	00000176 ExFatFile::timestamp(unsigned char, unsigned short, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+0001bda8 g     F .text.itcm	0000003e AudioRecordQueue::update()
+00001b38 g     F .text.itcm	00000042 RA8875::clearScreen(unsigned short)
+20013b30 g     O .bss	0000000c FIR_dec2_EX_Q
+60007550 g     F .text.code	00000064 initTempMon(unsigned short, unsigned long, unsigned long, unsigned long)
+0001e798 g     F .text.itcm	00000078 FatFile::addDirCluster()
+000283f4 g     F .text.itcm	00000028 usb_transmit
+20012a14 g     O .data	00000004 chipSelect
+00023e5c g     F .text.itcm	00000018 Metro::Metro(unsigned long)
+60008820  w    F .text.code	00000002 startup_late_hook
+00020fac g     F .text.itcm	00000004 operator new(unsigned int, unsigned long*)
+0000112c g     F .text.itcm	000000b4 RA8875::writeCommand(unsigned char)
+0001a464 g     F .text.itcm	000000aa TwoWire::isr()
+20003830 g     O .data	00000070 vtable for DedicatedSpiCard
+0001aba4 g     F .text.itcm	00000084 AudioControlSGTL5000::read(unsigned int)
+0001ae08 g     F .text.itcm	00000030 AudioControlSGTL5000::enable()
+0002222c g     F .text.itcm	000000b4 SdioCard::writeData(unsigned char const*)
+00020748 g     F .text.itcm	00000034 FatPartition::freeClusterCount_cb_fat16(unsigned long, unsigned char*, void*)
+000212d4 g     F .text.itcm	0000008c SharedSpiCard::readData(unsigned char*, unsigned int)
+00031cf4 g     F .text.itcm	0000001a __ascii_wctomb
+20011e00 g     O .data	0000000c S9_Rec
+0002dd88 g     F .text.itcm	000000c0 __ieee754_log10f
+00005e64  w    F .text.itcm	00000028 SDFile::close()
+00001660 g     F .text.itcm	00000064 RA8875::setY(short)
+0000d0b0 g     F .text.itcm	00000120 GetEncoderValueLive(float, float, float, float, char*)
+2001b65c g     O .bss	00000004 omega2
+00008530 g     F .text.itcm	0000033c DoCWReceiveProcessing()
+2001b4e4 g     O .bss	00000004 fineTuneEncoder
+20014ab0 g     O .bss	00000004 SAM_carrier_freq_offsetOld
+0001b678 g     F .text.itcm	000001c0 AudioOutputI2SQuad::isr()
+0001c9ec g     F .text.itcm	00000398 ExFatFile::openPrivate(ExFatFile*, ExName_t*, int)
+20020a16 g     O .bss	00000001 usb_configuration
+20011e1c g     O .data	00000050 SPI
+60004314 g     F .text.code	00000064 EEPROMStartup()
+00023ed8 g     F .text.itcm	0000020c Si5351::pll_calc(si5351_pll, unsigned long long, Si5351RegSet*, long, unsigned char)
+000282fc g     F .text.itcm	00000064 usb_config_rx
+00029318 g     F .text.itcm	000001a0 arm_cfft_radix8by2_f32
+0000eb2c g     F .text.itcm	000003e8 DoExciterEQ()
+20013174 g     O .data	0000000c s1_Receive2
+0001814c  w    F .text.itcm	0000005c AudioRecordQueue::AudioRecordQueue()
+20013b24 g     O .bss	0000000c FIR_dec2_EX_I
+60003c88 g     F .text.code	00000018 EEPROMStuffFavorites(unsigned long*)
+0000b50c g     F .text.itcm	000000c2 FormatFrequency(long, char*)
+0001c670 g     F .text.itcm	00000028 ExFatFile::openRoot(ExFatVolume*)
+20020388 g     O .bss	00000008 usb_cdc_line_coding
+20011c6c g     O .data	00000014 HP_DC_Filter_Coeffs2
+0001809c  w    F .text.itcm	0000005a AudioControlSGTL5000::inputSelect(int)
+00005f18  w    F .text.itcm	00000054 SDFile::setModifyTime(DateTimeFields const&)
+0002eb80 g     F .text.itcm	00000022 .hidden __aeabi_i2d
+200209c6 g     O .bss	00000002 AudioInputI2SQuad::block_offset
+2001b73c g     O .bss	00000400 pixelCurrent
+00025cfc g     F .text.itcm	00000044 AudioStream::update_setup()
+0000645c  w    F .text.itcm	0000004c SDFile::available()
+20017f60 g     O .bss	00000001 __lock___sfp_recursive_mutex
+000294b8 g     F .text.itcm	000004b0 arm_cfft_radix8by4_f32
+000210cc  w    F .text.itcm	00000004 SharedSpiCard::type() const
+0002edc8 g     F .text.itcm	0000001c .hidden __aeabi_i2f
+200139d4 g     O .bss	00000030 CW_AudioFilter1_state
+000078ac g     F .text.itcm	00000854 ButtonFrequencyEntry()
+20003a00  w    O .data	00000024 vtable for Stream
+00023314 g     F .text.itcm	0000004e SdSpiArduinoDriver::send(unsigned char const*, unsigned int)
+00027344 g     F .text.itcm	00000004 operator new[](unsigned int)
+20015104 g     O .bss	00000008 AudioOutputI2S2::dma
+20011e6c g     O .data	00000050 SPI1
+00020af0 g     F .text.itcm	000001c8 FatPartition::freeClusterCount()
+20019ee8 g     O .bss	00000004 aq
+000261f0 g     F .text.itcm	00000050 Print::write(unsigned char const*, unsigned int)
+0002b360 g     F .text.itcm	0000009c arm_sin_f32
+60002f58 g     F .text.code	000000f8 writeClippedRect(int, int, int, int, unsigned short*, bool)
+20011d64 g     O .data	0000000c S2_Xmt
+20011ebc g     O .data	00000050 SPI2
+2000b184 g     O .data	00004000 twiddleCoef_2048
+000273b0 g     F .text.itcm	0000001e ltoa
+0001870c g     F .text.itcm	0000017c SetAudioOperatingState(int)
+0000aea4 g     F .text.itcm	00000050 DrawSpectrumDisplayContainer()
+20202c00 g     O .bss.dma	00000400 EQ12_float_buffer_L
+200151b0 g     O .bss	00000004 AudioOutputI2SQuad::block_ch3_1st
+20013c1c g     O .bss	00000004 NR_E_pointer
+0000f4a0  w    F .text.itcm	00000006 ArduinoJson::V704PB2::detail::DefaultAllocator::deallocate(void*)
+20013a04 g     O .bss	00000030 CW_AudioFilter2_state
+00017f64  w    F .text.itcm	00000004 AudioControlSGTL5000::inputLevel(float)
+20012888 g     O .data	00000004 aveDahLength
+20007b7c g     O .data	0000002a pin_to_channel
+200074f4 g     O .data	000004fb glcdfont
+000139b8 g     F .text.itcm	00000138 SubmenuSelect(char const**, int, int)
+20011d88 g     O .data	0000000c S4_Rec
+00001b7c g     F .text.itcm	0000016c RA8875::setRotation(unsigned char)
+20019ee4 g     O .bss	00000004 ai
+00026dfc g     F .text.itcm	000000ec eepromemu_flash_write
+0001e44c g     F .text.itcm	00000040 ExFatPartition::fatPut(unsigned long, unsigned long)
+00025f14  w    F .text.itcm	00000002 teensy::inplace_function_detail::vtable<void>::vtable()::{lambda(void*)#1}::_FUN(void*)
+00030394 g     F .text.itcm	00000008 __sclose
+00005fb4  w    F .text.itcm	0000006e SDFile::getModifyTime(DateTimeFields&)
+20259864 g     O .bss.dma	00000400 cwFallBuffer
+0001a00c  w    F .text.itcm	0000001e TwoWire::read()
+20012f04 g     O .data	00000004 minPinRead
+2001b678 g     O .bss	00000014 patchCord1
+0001f4bc g     F .text.itcm	00000074 FatFile::truncate()
+20209378 g     O .bss.dma	000000b8 FIR_dec2_coeffs
+000063d4  w    F .text.itcm	00000034 StreamFile<FsBaseFile, unsigned long long>::write(unsigned char)
+000289ec g     F .text.itcm	00000044 usb_serial_peekchar
+2001b448 g     O .bss	00000004 dcu
+00016350 g     F .text.itcm	00000a68 ProcessIQData()
+2001b664 g     O .bss	00000004 onemhang_backmult
+00006cb0  w    F .text.itcm	0000000c IntervalTimer::~IntervalTimer()
+00025b2c g     F .text.itcm	00000018 AudioConnection::AudioConnection()
+0002d310 g     F .text.itcm	00000130 __kernel_cos
+2001b738 g     O .bss	00000004 phzerror
+0002674c g     F .text.itcm	0000000a String::toInt() const
+20019ef8 g     O .bss	00000004 attenuator
+0001dae4 g     F .text.itcm	0000052c ExFatFormatter::format(FsBlockDeviceInterface*, unsigned char*, Print*)
+60001678 g     F .text.code	00000364 DrawKeyboard()
+20003e44 g     O .data	00000e10 armBitRevIndexTable1024
+200151bc g     O .bss	00000004 AudioOutputI2SQuad::block_ch4_2nd
+2001b380 g     O .bss	00000098 comp1
+00004424 g     F .text.itcm	00000114 RA8875::drawFontBits(bool, unsigned long, unsigned long, long, long, unsigned long)
+2024967c g     O .bss.dma	0000206c FIR_dec1_Q_state
+20013203 g     O .data	00000001 use_HP_filter
+0001e54c g     F .text.itcm	0000006a ExFatPartition::freeClusterCount()
+200122fc g     O .data	0000016c __global_locale
+20012ad8 g     O .data	000000c0 coeffs48K_8K_LPF_FIR
+0001956c g     F .text.itcm	000002cc DoSplitVFO()
+00026240 g     F .text.itcm	00000016 Print::print(long)
+200203a4 g     O .bss	00000004 userZoomIndex
+000069b0 g     F .text.itcm	00000068 InitializeSDCard()
+00029e0c g     F .text.itcm	00000036 arm_fir_interpolate_init_f32
+20200c00 g     O .bss.dma	00000400 EQ4_float_buffer_L
+000006d0 g     F .text.itcm	00000278 ShowFrequency()
+200209e7 g     O .bss	00000001 NB_on
+00030fc4 g     F .text.itcm	00000002 __retarget_lock_acquire_recursive
+000284a0  w    F .text.itcm	00000004 usb_serial_class::availableForWrite()
+00022d88 g     F .text.itcm	000000fc SdioCard::readData(unsigned char*)
+00006578  w    F .text.itcm	00000048 SDFile::~SDFile()
+20020a00 g     O .bss	00000001 calOnFlag
+20011f1c g     O .data	00000140 Wire
+20236250 g     O .bss.dma	00000400 last_sample_buffer_L
+600094c8 g       .text.code	00000000 __init_array_start
+000065c0  w    F .text.itcm	0000008e SDFile::seek(unsigned long long, int)
+2020cae0 g     O .bss.dma	000004fc FIR_CW_DecodeL_state
+0002ce98 g     F .text.itcm	00000204 sinf
+0002f214 g     F .text.itcm	00000078 _calloc_r
+00010460  w    F .text.itcm	00000158 int ArduinoJson::V704PB2::detail::VariantData::asIntegral<int>() const
+00021a2c g     F .text.itcm	00000068 SharedSpiCard::writeStart(unsigned long)
+0002b3fc g     F .text.itcm	00000080 arm_cos_f32
+200129fc g     O .data	00000004 bigMorseCodeTree
+00016ee8 g     F .text.itcm	00000218 CalibratePreamble(int)
+20014f94 g     O .bss	00000004 Zoom_FFT_M2
+2001b42c g     O .bss	00000004 currentTime
+20020894 g     O .bss	00000020 xmt_EQ_Band1_state
+00020a98 g     F .text.itcm	00000056 FatPartition::freeChain(unsigned long)
+00002604 g     F .text.itcm	00000378 RA8875::_initialize()
+60001b98 g     F .text.code	000004a4 CaptureKeystrokes()
+20020248 g     O .bss	00000004 splitOn
+200209fe g     O .bss	00000001 blankFlag
+20013180 g     O .data	00000004 thresholdGeometricMean
+20020a10 g     O .bss	00000001 state
+20020974 g     O .bss	00000020 xmt_EQ_Band8_state
+200138e0 g     O .bss	00000008 Clk2SetFreq
+00006850 g     F .text.itcm	00000160 read32(File&)
+000242f0 g     F .text.itcm	000000f0 Si5351::multisynth67_calc(unsigned long long, unsigned long long, Si5351RegSet*)
+2001b560 g     O .bss	00000004 hang_level
+20013c28 g     O .bss	00000004 NR_T
+20011c8c g     O .data	0000000c S10_Rec
+00009cb0 g     F .text.itcm	00000118 SetCompressionLevel()
+2001af04 g     O .bss	00000400 audioYPixel
+20020934 g     O .bss	00000020 xmt_EQ_Band6_state
+0002ab3c g     F .text.itcm	00000530 arm_correlate_f32
+20013202 g     O .data	00000001 twinpeaks_tested
+20001f70 g     O .data	00000128 .hidden __powf_log2_data
+20014f90 g     O .bss	00000004 Zoom_FFT_M1
+200136c0 g     O .data	00000000 .hidden __TMC_END__
+0001ece8 g     F .text.itcm	000001a8 FatFile::read(void*, unsigned int)
+00001720 g     F .text.itcm	0000005a RA8875::BTE_moveFrom(short, short)
+200150ec g     O .bss	00000008 AudioOutputTDM::dma
+20235e50 g     O .bss.dma	00000400 last_sample_buffer_R
+200203c0 g     O .bss	00000004 volts
+2001c4ac g     O .bss	00000020 rec_EQ_Band7_state
+00020a78 g     F .text.itcm	00000020 FatPartition::fatPut(unsigned long, unsigned long)
+00001230 g     F .text.itcm	00000058 RA8875::_textPosition(short, short, bool)
+200151f8 g     O .bss	00000008 AudioInputSPDIF3_F32::dma
+20207500 g     O .bss.dma	00000200 NR_G
+2020dd34 g     O .bss.dma	0000085c FIR_dec2_EX_Q_state
+0002b574 g     F .text.itcm	0000006c arm_offset_f32
+200131f2 g     O .data	00000002 pos_x_time
+200203e4 g     O .bss	00000004 volumeEncoder
+0002b088 g     F .text.itcm	00000196 arm_biquad_cascade_df1_f32
+20019ee0 g     O .bss	00000004 adjustVolEncoder
+20232050 g     O .bss.dma	00001e00 NR_E
+2002024c g     O .bss	00000004 switchFilterSideband
+2001500c g     O .bss	00000004 AudioStream::memory_pool
+200039a4  w    O .data	0000005c vtable for SDFile
+0003177c g     F .text.itcm	0000015c __multiply
+20011ce0 g     O .data	0000000c S13_Xmt
+000318d8 g     F .text.itcm	000000c0 __pow5mult
+20007134 g     O .data	00000010 arm_cfft_sR_f32_len512
+0001c134  w    F .text.itcm	00000036 SDClass::exists(char const*)
+2001516c g     O .bss	00000004 AudioInputI2SQuad::block_ch4
+0002880c g     F .text.itcm	00000100 usb_serial_configure
+000232dc g     F .text.itcm	00000024 SdSpiArduinoDriver::receive(unsigned char*, unsigned int)
+200150fc g     O .bss	00000004 EventResponder::firstInterrupt
+0002394c g     F .text.itcm	00000046 AudioStream_F32::receiveWritable_f32(unsigned int)
+00028b04 g     F .text.itcm	00000018 usb_serial_write
+00021254 g     F .text.itcm	0000007e SharedSpiCard::isBusy()
+00026ee8 g     F .text.itcm	000000b8 eepromemu_flash_erase_sector
+20013be4 g     O .bss	00000008 HP_DC_Butter_state2
+00001acc g     F .text.itcm	0000006c RA8875::fillWindow(unsigned short)
+00000007 g       *ABS*	00000000 _itcm_block_count
+20010cc4 g     O .data	00000002 n_dec1_taps
+2025a064 g     O .bss.dma	00002000 float_buffer_RTemp
+20020244 g     O .bss	00000004 spec_FFT
+00007200 g     F .text.itcm	00000184 ButtonBandIncrease()
+0001b402 g     F .text.itcm	00000000 memcpy_tointerleaveL
+00006bf0  w    F .text.itcm	00000006 teensy::inplace_function_detail::vtable<void>::vtable<void (*)()>(teensy::inplace_function_detail::wrapper<void (*)()>)::{lambda(void*, void*)#2}::_FUN(void*, void*)
+0002f838 g     F .text.itcm	0000000c __malloc_lock
+00005dc0 g     F .text.itcm	00000030 RA8875::_fontWrite(unsigned char const*, unsigned short)
+0001d9e8 g     F .text.itcm	0000004c ExFatFormatter::writeUpcaseUnicode(unsigned short)
+0001a9cc g     F .text.itcm	0000001c SPIClass::pinIsSCK(unsigned char)
+20000360 g     O .data	00000148 .hidden __exp2f_data
+0001d3a4 g     F .text.itcm	000000d6 ExFatFile::mkdir(ExFatFile*, char const*, bool)
+20007184 g     O .data	00000370 digital_pin_to_info_PGM
+00026fa0 g     F .text.itcm	00000134 eeprom_write_byte
+000210c4  w    F .text.itcm	00000004 SharedSpiCard::errorCode() const
+00026c48 g     F .text.itcm	00000024 digitalRead
+20015178 g     O .bss	00000008 AudioOutputI2SHex::dma
+00005e8c  w    F .text.itcm	00000050 SDFile::name()
+200118a0 g     O .data	00000050 EQ_Band8Coeffs
+20207100 g     O .bss.dma	00000200 NR_M
+2001b618 g     O .bss	00000004 max_gain
+20020814 g     O .bss	00000020 xmt_EQ_Band11_state
+00000184 g     F .text.itcm	000002b8 DoSignalHistogram(long)
+00001a20 g     F .text.itcm	0000005a RA8875::backlight(bool)
+0000c76c g     F .text.itcm	00000088 UpdateInfoWindow()
+0002ef40 g     F .text.itcm	000002c8 .hidden __udivmoddi4
+60013ce0 g       *ABS*	00000000 _stextload
+0002fe48 g     F .text.itcm	0000000a fcvtf
+00021e04 g     F .text.itcm	0000001c DedicatedSpiCard::writeSector(unsigned long, unsigned char const*)
+000200e8 g     F .text.itcm	00000056 FatFormatter::initPbs()
+20011d58 g     O .data	0000000c S2_Rec
+200203bc g     O .bss	00000004 var_gain
+0000838c g     F .text.itcm	0000009c MorseCharacterDisplay(char)
+60003a68 g     F .text.code	000001b8 UpdateEqualizerField(bool, bool)
+20020160 g     O .bss	00000004 s_hotT_ROOM
+20015158 g     O .bss	00000008 AudioInputI2SQuad::dma
+0002f2c8 g     F .text.itcm	00000010 free
+000232bc g     F .text.itcm	00000006 SdSpiArduinoDriver::end()
+2001b520 g     O .bss	00000004 g_WRCount
+200150d4 g     O .bss	00000008 AudioOutputMQS::dma
+00012768  w    F .text.itcm	00000354 ArduinoJson::V704PB2::detail::PrettyJsonSerializer<ArduinoJson::V704PB2::detail::Writer<File, void> >::result_type ArduinoJson::V704PB2::detail::VariantData::accept<ArduinoJson::V704PB2::detail::PrettyJsonSerializer<ArduinoJson::V704PB2::detail::Writer<File, void> > >(ArduinoJson::V704PB2::detail::PrettyJsonSerializer<ArduinoJson::V704PB2::detail::Writer<File, void> >&) const
+2001b48c g     O .bss	00000004 dxLat
+00000a54  w    F .text.itcm	00000002 Print::flush()
+00019348 g     F .text.itcm	000001c4 SetFreq()
+60003d98 g     F .text.code	00000238 GetFavoriteFrequency()
+0001c614 g     F .text.itcm	00000014 ExFatFile::close()
+20011dc4 g     O .data	0000000c S6_Xmt
+00001040 g     F .text.itcm	000000e4 RA8875::_readData(bool)
+20201c00 g     O .bss.dma	00000400 EQ8_float_buffer_L
+00006284  w    F .text.itcm	00000018 SDFile::peek()
+000316c0 g     F .text.itcm	00000060 __lo0bits
+2001b518 g     O .bss	00000004 float_Corr_BufferL
+20262064 g     O .bss.dma	000020bc FIR_dec1_EX_Q_state
+000062b4  w    F .text.itcm	00000026 SDFile::isDirectory()
+0001b442 g     F .text.itcm	00000000 memcpy_tointerleaveR
+2023a654 g     O .bss.dma	00002000 float_buffer_L_3
+0002e8e4 g     F .text.itcm	0000027a .hidden __subdf3
+2001b574 g     O .bss	00000004 homeLat
+200114e0 g     O .data	00000050 EQ_Band10Coeffs
+00021094 g     F .text.itcm	00000028 FsVolume::open(char const*, int)
+2001b51c g     O .bss	00000004 float_Corr_BufferR
+20012c10 g     O .data	00000010 freq
+00021e20 g     F .text.itcm	00000026 DedicatedSpiCard::begin(SdSpiConfig)
+60013c70 g     O .text.progmem	00000062 usb_config_descriptor_480
+60008494 g     F .text.code	00000068 initUserDefinedStuff()
+20207700 g     O .bss.dma	00000200 NR_SNR_prio
+2001bf40 g     O .bss	00000400 pixelold
+20015188 g     O .bss	00000008 AudioOutputPT8211::dma
+0000cb44 g     F .text.itcm	00000024 ErasePrimaryMenu()
+0001ce7c g     F .text.itcm	0000000e ExFatFile::open(ExFatVolume*, char const*, int)
+20015208 g     O .bss	00000008 AudioOutputSPDIF3_F32::dma
+0000d5c0 g     F .text.itcm	00000068 EncoderFilter()
+6000718c g     F .text.code	00000382 printCalType(int)
+000076e4 g     F .text.itcm	0000003c ButtonNR()
+00007720 g     F .text.itcm	00000028 ButtonNotchFilter()
+0000ef88 g     F .text.itcm	0000004c ControlFilterF()
+00016214 g     F .text.itcm	000000c0 SpectralNoiseReductionInit()
+2001b670 g     O .bss	00000004 out_targ
+2002023c g     O .bss	00000004 slope_constant
+2001205c g     O .data	00000140 Wire1
+0002e8e8 g     F .text.itcm	00000276 .hidden __adddf3
+2001b564 g     O .bss	00000004 hang_thresh
+00033af4 g     F .text.itcm	00000054 _fflush_r
+20010e2c g     O .data	00000004 ANR_two_mu
+00021148  w    F .text.itcm	00000002 DedicatedSpiCard::~DedicatedSpiCard()
+0000cad8 g     F .text.itcm	00000024 EraseSpectrumDisplayContainer()
+00028c00  w    F .text.itcm	000000d8 yield
+2001b418 g     O .bss	00000004 comp_ratio
+20209308 g     O .bss.dma	00000070 FIR_dec1_coeffs
+0001aa54 g     F .text.itcm	00000064 SPIClass::setMISO(unsigned char)
+00013af0 g     F .text.itcm	00000324 CalibrateOptions()
+200203ec g     O .bss	00000400 waterfall
+0002664c g     F .text.itcm	0000000e String::~String()
+2001219c g     O .data	00000140 Wire2
+00031090 g     F .text.itcm	00000000 memchr
+20011c64 g     O .data	00000004 F_BUS_ACTUAL
+200208b4 g     O .bss	00000020 xmt_EQ_Band2_state
+20205980 g     O .bss.dma	00000580 LMS_StateF32
+60013bd8 g     O .text.progmem	00000016 usb_string_product_name_default
+20013b3c g     O .bss	0000000c FIR_dec2_I
+00004390 g     F .text.itcm	00000094 RA8875::setFont(GFXfont const*)
+00021c9c g     F .text.itcm	00000066 SharedSpiCard::writeData(unsigned char, unsigned char const*)
+600037a0 g     F .text.code	00000054 SelectCWFilter()
+60006198 g     F .text.code	00000f4c saveConfiguration(char const*, config_t const&, bool)
+2001c44c g     O .bss	00000020 rec_EQ_Band4_state
+00027348 g     F .text.itcm	00000004 operator delete(void*, unsigned int)
+00030310 g     F .text.itcm	00000022 __sread
+200131f8 g     O .data	00000001 FIR_filter_window
+20231c50 g     O .bss.dma	00000400 NR_long_tone
+20020370 g     O .bss	00000004 transmitDahUnshapedBlocks
+6000881c g     F .text.code	00000002 startup_default_middle_hook
+0002cb78 g     F .text.itcm	00000320 powf
+00017540 g     F .text.itcm	000003a4 PlotCalSpectrum(int, int*, int)
+20020264 g     O .bss	00000004 tau_fast_backaverage
+200136c0 g       .data	00000000 _edata
+00001f68 g     F .text.itcm	00000082 RA8875::drawPixel(short, short, unsigned short)
+200115d0 g     O .data	00000050 EQ_Band13Coeffs
+000270f8 g     F .text.itcm	00000104 attachInterrupt
+20012bb8 g     O .data	00000050 displayScale
+20013b48 g     O .bss	0000000c FIR_dec2_Q
+200038d4 g     O .data	0000000c vtable for AudioOutputI2SQuad
+20013a34 g     O .bss	00000030 CW_AudioFilter3_state
+20237654 g     O .bss.dma	00000400 float_buffer_L_AudioCW
+20020994 g     O .bss	00000020 xmt_EQ_Band9_state
+20020204 g     O .bss	00000008 settingsA
+2002017c g     O .bss	00000004 scale_cpu_cycles_to_microseconds
+2001b360 g     O .bss	00000004 buttonRead
+20011cec g     O .data	0000000c S14_Rec
+000014a4 g     F .text.itcm	00000070 RA8875::setForegroundColor(unsigned short)
+00030f74 g     F .text.itcm	00000048 __libc_init_array
+200209c2 g     O .bss	00000002 AudioStream::cpu_cycles_total_max
+20020230 g     O .bss	00000004 signalStart
+0001e300 g     F .text.itcm	0000004c ExFatPartition::chainSize(unsigned long)
+00028e48 g     F .text.itcm	00000130 arm_float_to_q15
+00027a84  w    F .text.itcm	00000034 _sbrk
+00006408  w    F .text.itcm	00000054 SDFile::setCreateTime(DateTimeFields const&)
+0000dd48 g     F .text.itcm	000001d4 CalcZoom1Magn()
+600045f0 g     F .text.code	00001ba6 loadConfiguration(char const*, config_t&)
+0001d5f4 g     F .text.itcm	000000e4 ExFatFile::truncate()
+00029a58 g     F .text.itcm	00000376 arm_biquad_cascade_df2T_f32
+0002322c g     F .text.itcm	00000004 sdCsWrite(unsigned char, bool)
+00017f94  w    F .text.itcm	0000006c AudioConvert_I16toF32::update()
+200038fc  w    O .data	0000000c vtable for AudioConvert_F32toI16
+00030ec0 g     F .text.itcm	0000002c _lseek_r
+0001b482 g     F .text.itcm	00000000 memcpy_tointerleaveQuad
+0001eb3c g     F .text.itcm	00000104 FatFile::open(FatFile*, char const*, int)
+20015140 g     O .bss	00000008 AudioInputI2SOct::dma
+0001c0a4  w    F .text.itcm	00000054 SDClass::remove(char const*)
+0002c148 g     F .text.itcm	00000054 frexpf
+60008324 g     F .text.code	000000e0 initCWShaping()
+00021704 g     F .text.itcm	00000076 SharedSpiCard::readOCR(unsigned long*)
+200203a0 g     O .bss	00000004 userScale
+0002caac g     F .text.itcm	000000c8 logf
+20012c58 g     O .data	00000020 incrementValues
+00027ccc g     F .text.itcm	00000630 usb_isr
+2001b318 g     O .bss	00000004 bearingDistance
+0002eb80 g     F .text.itcm	00000022 .hidden __floatsidf
+20011d7c g     O .data	0000000c S3_Xmt
+00021154  w    F .text.itcm	0000000e DedicatedSpiCard::~DedicatedSpiCard()
+00025070 g     F .text.itcm	000000f8 Si5351::init(unsigned char, unsigned long, long)
+20010e00 g     O .data	00000004 ANR_delay
+00006d68 g     F .text.itcm	000000c4 ReadSelectedPushButton()
+0001a050  w    F .text.itcm	00000002 TwoWire::flush()
+00023e5c g     F .text.itcm	00000018 Metro::Metro(unsigned long)
+0002c390 g     F .text.itcm	00000010 .hidden __math_uflow
+00011120  w    F .text.itcm	00000130 unsigned long ArduinoJson::V704PB2::detail::VariantData::asIntegral<unsigned long>() const
+2001b568 g     O .bss	00000004 hangtime
+00005b14 g     F .text.itcm	000000b0 RA8875::getTextBounds(unsigned char const*, unsigned short, short, short, short*, short*, unsigned short*, unsigned short*)
+20010e04 g     O .data	00000004 ANR_den_mult
+20020874 g     O .bss	00000020 xmt_EQ_Band14_state
+000016c4 g     F .text.itcm	0000005a RA8875::BTE_size(short, short)
+20010cd0 g     O .data	00000008 Clk1SetFreq
+00028d24 g     F .text.itcm	00000084 sm_set_pool
+0002c400 g     F .text.itcm	00000012 .hidden __math_check_uflow
+20011cb0 g     O .data	0000000c S11_Xmt
+000092b8 g     F .text.itcm	00000378 AGCLoadValues()
+20238654 g     O .bss.dma	00002000 float_buffer_R_3
+0002f20c g     F .text.itcm	00000008 atol
+0002b47c g     F .text.itcm	0000008c arm_sub_f32
+20201000 g     O .bss.dma	00000400 EQ5_float_buffer_L
+6000164c g     F .text.code	00000028 ResetHandler
+00025350 g     F .text.itcm	00000548 Si5351::set_freq(unsigned long long, si5351_clock)
+00009700 g     F .text.itcm	000005b0 AGC()
+20242654 g     O .bss.dma	00002000 float_buffer_L
+20013168 g     O .data	00000004 out_index
+20000f28 g     O .data	00001048 .hidden __pow_log_data
+0001c298 g     F .text.itcm	000000dc SDClass::format(int, char, Print&)
+0000bf60 g     F .text.itcm	000000a4 UpdateVolumeField()
+20237a54 g     O .bss.dma	00000400 float_buffer_R_AudioCW
+60049d8c g       *ABS*	00000000 _sdataload
+00028ab8 g     F .text.itcm	00000020 usb_serial_getchar
+20011800 g     O .data	00000050 EQ_Band6Coeffs
+000270d4 g     F .text.itcm	0000001e eeprom_write_block
+20207900 g     O .bss.dma	00000200 NR_SNR_post
+20013170 g     O .data	00000004 ring_buffsize
+2001b41c g     O .bss	00000008 corr
+2025180c g     O .bss.dma	0000202c Fir_Zoom_FFT_Decimate_Q1_state
+20015100 g     O .bss	00000004 EventResponder::lastYield
+2001b31c g     O .bss	00000004 bearingRadians
+0000308c g     F .text.itcm	00000052 RA8875::drawRect(short, short, short, short, unsigned short)
+20013af4 g     O .bss	0000000c FIR_dec1_EX_I
+0002c1a0 g     F .text.itcm	000001b4 exp
+20015180 g     O .bss	00000008 AudioOutputI2SOct::dma
+0001e8a4 g     F .text.itcm	00000020 FatFile::getCreateDateTime(unsigned short*, unsigned short*)
+00020e60 g     F .text.itcm	00000028 FsBaseFile::close()
+0001ac28 g     F .text.itcm	0000005c AudioControlSGTL5000::write(unsigned int, unsigned int)
+20015114 g     O .bss	00000004 AudioStream_F32::f32_memory_pool
+00006024  w    F .text.itcm	0000006e SDFile::getCreateTime(DateTimeFields&)
+2020a598 g     O .bss.dma	000000c0 FIR_int1_coeffs
+0001814c  w    F .text.itcm	0000005c AudioRecordQueue::AudioRecordQueue()
+0000632c  w    F .text.itcm	00000014 SDFile::flush()
+20013c2c g     O .bss	00000004 NR_X_pointer
+00021a94 g     F .text.itcm	00000118 SharedSpiCard::erase(unsigned long, unsigned long)
+20013928 g     O .bss	00000008 elapsed_micros_sum
+0000e668 g     F .text.itcm	0000011c SetIIRCoeffs(float, float, float, unsigned char)
+2001b4c4 g     O .bss	00000004 fast_backmult
+0001fae0 g     F .text.itcm	00000298 FatFile::open(FatFile*, FatLfn_t*, int)
+00025cc8 g     F .text.itcm	00000034 AudioConnection::~AudioConnection()
+0001f7a0 g     F .text.itcm	00000122 FatFile::createLFN(unsigned short, FatLfn_t*, unsigned char)
+0002720c g     F .text.itcm	00000134 memcpy
+2001b444 g     O .bss	00000004 dc_insertu
+0001ceb0 g     F .text.itcm	00000092 ExFatFile::addCluster()
+2020e9ec g     O .bss.dma	0000045c FIR_int1_EX_Q_state
+00026440  w    F .text.itcm	00000004 usb_serial_class::peek()
+0000d2d4 g     F .text.itcm	00000114 SetWPM()
+20015008 g     O .bss	00000004 FsDateTime::callback2
+00025f18  w    F .text.itcm	00000002 teensy::inplace_function_detail::vtable<void>::vtable()::{lambda(void*, void*)#2}::_FUN(void*, void*)
+600070e8 g     F .text.code	000000a4 loadCalToneBuffers()
+0002b06c g     F .text.itcm	0000001a arm_biquad_cascade_df1_init_f32
+20240654 g     O .bss.dma	00002000 float_buffer_R
+00013f88 g     F .text.itcm	00000064 EqualizerXmtOptions()
+0002665c g     F .text.itcm	00000066 String::copy(char const*, unsigned int)
+2001b540 g     O .bss	00000004 gapLength
+000273d0 g     F .text.itcm	0000034c dtostrf
+60010508 g     O .text.progmem	00000002 currentMode
+00023300 g     F .text.itcm	00000012 SdSpiArduinoDriver::send(unsigned char)
+20013938 g     O .bss	00000088 si5351
+000064f4  w    F .text.itcm	00000044 File::write(unsigned char const*, unsigned int)
+0001e194 g     F .text.itcm	000000c0 ExFatPartition::bitmapFind(unsigned long, unsigned long)
+0002f844 g     F .text.itcm	0000000c __malloc_unlock
+20011df4 g     O .data	0000000c S8_Xmt
+0002edf4 g     F .text.itcm	0000007c .hidden __aeabi_l2f
+00023ddc g     F .text.itcm	00000064 setTime(int, int, int, int, int, int)
+20236650 g     O .bss.dma	00001004 iFFT_buffer
+600037f4 g     F .text.code	00000070 SelectCWOffset()
+00010ec0  w    F .text.itcm	0000025c ArduinoJson::V704PB2::detail::enable_if<!ArduinoJson::V704PB2::detail::ConverterNeedsWriteableRef<float>::value, float>::type ArduinoJson::V704PB2::detail::VariantRefBase<ArduinoJson::V704PB2::detail::ElementProxy<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> > >::as<float>() const
+20011944 g     O .data	00000190 FIR_Hilbert_coeffs_45
+0000629c  w    F .text.itcm	00000018 StreamFile<FsBaseFile, unsigned long long>::peek()
+00022f58 g     F .text.itcm	00000098 SdioCard::stopTransmission(bool)
+0002e8e8 g     F .text.itcm	00000276 .hidden __aeabi_dadd
+0002de48 g     F .text.itcm	000001ac atanf
+20020238 g     O .bss	00000004 sinBuffer
+00003d38 g     F .text.itcm	00000658 RA8875::drawChar(short, short, unsigned char, unsigned short, unsigned short, unsigned char, unsigned char)
+20013b00 g     O .bss	0000000c FIR_dec1_EX_Q
+20208f04 g     O .bss.dma	00000404 FIR_Coef_I
+000229a0 g     F .text.itcm	00000088 SdioCard::readSectors(unsigned long, unsigned char*, unsigned int)
+0002ebf8 g     F .text.itcm	0000005a .hidden __aeabi_l2d
+20014940 g     O .bss	00000164 Q_out_R_Ex
+00031140 g     F .text.itcm	000000dc strlen
+000181a8  w    F .text.itcm	00000060 AudioStream_F32::AudioStream_F32(unsigned char, audio_block_f32_t**)
+00018888 g     F .text.itcm	00000544 loop
+600087c4 g     F .text.code	00000054 analog_init
+00023484 g     F .text.itcm	000000a0 lbaToMbrChs(unsigned char*, unsigned long, unsigned long)
+2001b638 g     O .bss	00000004 n_tau
+0000cc0c g     F .text.itcm	00000070 RedrawDisplayScreen()
+200209c8 g     O .bss	00000002 AudioOutputI2SQuad::ch1_offset
+2001b544 g     O .bss	00000004 gapRef1
+20003818  w    O .data	0000000c vtable for AudioStream_F32
+20013201 g     O .data	00000001 first_block
+00017f74  w    F .text.itcm	00000020 AudioControlSGTL5000::volume(float)
+00031680 g     F .text.itcm	00000040 __hi0bits
+20012a18 g     O .data	000000c0 coeffs192K_10K_LPF_FIR
+200139c4 g     O .bss	00000004 ANR_in_idx
+0002fd84 g     F .text.itcm	0000001c strtol
+20020268 g     O .bss	00000004 tau_fast_decay
+0000c564 g     F .text.itcm	00000138 UpdateWPMField()
+00035e90 g     F .text.itcm	00000106 _wcsnrtombs_l
+60008820 g     F .text.code	00000002 startup_default_late_hook
+200131fd g     O .data	00000001 T41State
+0000a708 g     F .text.itcm	000000d0 DrawAudioSpectContainer()
+00006650  w    F .text.itcm	000000a8 File::~File()
+0001141c  w    F .text.itcm	000001ac ArduinoJson::V704PB2::detail::ElementProxy<ArduinoJson::V704PB2::detail::MemberProxy<ArduinoJson::V704PB2::JsonDocument&, char const*> >::getOrCreateData() const
+00019dd8 g     F .text.itcm	0000003c SetBand()
+20015014 g     O .bss	00000070 AudioStream::memory_pool_available_mask
+20020178 g     O .bss	00000004 save_volts
+2001b498 g     O .bss	00000004 endGapFlag
+2001b5f4 g     O .bss	00000004 inv_max_input
+20205f00 g     O .bss.dma	00000800 NR_FFT_buffer
+00025d40 g     F .text.itcm	000000b4 DMAChannel::begin(bool)
+200209f4 g     O .bss	00000001 AudioStream_F32::f32_memory_used_max
+00012de4  w    F .text.itcm	000000a0 ArduinoJson::V704PB2::detail::TextFormatter<ArduinoJson::V704PB2::detail::Writer<usb_serial_class, void> >::writeString(char const*, unsigned int)
+00006354  w    F .text.itcm	00000058 File::read()
+00023eac g     F .text.itcm	00000028 Si5351::Si5351(unsigned char)
+2001b60c g     O .bss	00000004 last_filter_pos
+00022a28 g     F .text.itcm	00000088 SdioCard::writeSectors(unsigned long, unsigned char const*, unsigned int)
+20020260 g     O .bss	00000004 tau_decay
+2020ee48 g     O .bss.dma	0000081c FIR_int2_EX_I_state
+2020af90 g     O .bss.dma	0000081c FIR_int2_I_state
+00006148  w    F .text.itcm	00000054 File::write(unsigned char)
+00004538 g     F .text.itcm	000000a2 RA8875::gfxFontLastCharPosFG(short, short)
+00025acc g     F .text.itcm	00000018 AudioStream::receiveReadOnly(unsigned int)
+200026fc g     O .data	00000018 DEMOD
+2001b35c g     O .bss	00000004 bq
+200151a0 g     O .bss	00000004 AudioOutputI2SQuad::block_ch1_1st
+00021fe4  w    F .text.itcm	00000002 SdioCard::~SdioCard()
+00005df0  w    F .text.itcm	00000042 RA8875::write(unsigned char)
+0002b220 g     F .text.itcm	0000013e arm_cmplx_mult_cmplx_f32
+200037f4  w    O .data	0000000c vtable for AudioStream
+20209ce4 g     O .bss.dma	000008b4 FIR_dec2_Q_state
+2001b320 g     O .bss	00000004 bi
+20020a1a g     O .bss	00000001 write_analog_gain
+60003fd0 g     F .text.code	00000344 EEPROMDataDefaults()
+0000fe00  w    F .text.itcm	00000374 ArduinoJson::V704PB2::detail::parseNumber(char const*, ArduinoJson::V704PB2::detail::VariantData&)
+2001b624 g     O .bss	00000004 min_volts
+000210d8 g     F .text.itcm	0000006e DedicatedSpiCard::writeSectorsCallback(unsigned long, unsigned int, unsigned char const* (*)(unsigned long, void*), void*)
+20257864 g     O .bss.dma	00001000 FFT_buffer
+00014120 g     F .text.itcm	0000008c MicOptions()
+2001b4b0 g     O .bss	00000010 extmem_smalloc_pool
+200209d4 g     O .bss	00000002 rawSpectrumPeak
+00023230 g     F .text.itcm	00000012 SdSpiArduinoDriver::activate()
+20048000 g       .text.csf	00000000 _estack
+00028a48 g     F .text.itcm	00000070 usb_serial_flush_input
+00033c78 g     F .text.itcm	00000024 _isatty_r
+0000bb08 g     F .text.itcm	000002ac DrawSMeterContainer()
+000235c8 g     F .text.itcm	00000098 FsUtf::mbToCp(char const*, char const*, unsigned long*)
+20011c80 g     O .data	00000004 NB_thresh
+0000f5d4  w    F .text.itcm	00000218 ArduinoJson::V704PB2::detail::CollectionData::addSlot(ArduinoJson::V704PB2::detail::ResourceManager*)
+000211c8 g     F .text.itcm	0000008c SharedSpiCard::writeStop()
+20014f88 g     O .bss	00000004 TxRxFreq
+00007524 g     F .text.itcm	0000006c ButtonZoom()
+00018640 g     F .text.itcm	000000cc SetI2SFreq(int)
+0001a51c g     F .text.itcm	0000000c lpi2c3_isr()
+20020218 g     O .bss	0000000c sgtl5000_2
+000088e0 g     F .text.itcm	0000002c KeyRingOn()
+000061d4  w    F .text.itcm	000000b0 SDFile::openNextFile(unsigned char)
+0001cd84 g     F .text.itcm	000000f8 ExFatFile::open(ExFatFile*, char const*, int)
+2001bb40 g     O .bss	00000400 pixelnew
+2002020c g     O .bss	0000000c sgtl5000_1
+0002ede4 g     F .text.itcm	0000008c .hidden __aeabi_ul2f
+20011db8 g     O .data	0000000c S6_Rec
+
+
